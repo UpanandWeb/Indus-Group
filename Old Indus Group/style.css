@@ -1,0 +1,19 @@
+﻿@charset "utf-8";
+/* CSS Document */
+a, a:visited{color:#000; font-weight:bold; text-decoration:none;}
+
+ul.menucontrol{list-style:none; font: 0.75em/1.5em normal Tahoma, Verdana, Geneva, sans-serif; position:relative; margin:0; padding:0;}
+ul.menucontrol li{ background:#ececec; margin:1px; height:40px; width:18em;  text-align:center; display:block; float:left; position:relative; line-height:40px;}
+
+ul.menucontrol li a{ padding:5px 13px;}
+ul.menucontrol li a:hover{ color:#06C;}
+ul.menucontrol li.highlight{ background:#666;}
+ul.menucontrol li.highlight a, ul.menucontrol li.highlight a:hover { color:#f5f5f5; cursor:default;}
+
+ul.menucontrol ul.childNav{ position:absolute; top:2.5em; left:0; list-style:none; margin:0; padding:0; display:none;}
+ul.menucontrol ul.childNav li{ float:none;}
+ul.menucontrol li.highlight ul.childNav a { color:#444; cursor:pointer;}
+ul.menucontrol li.highlight ul.childNav a:hover{ color:#06c;}
+ul.menucontrol li.highlight ul.childNav li.highlight{ background:#999; }
+ul.menucontrol li.highlight ul.childNav li.highlight a, ul.menucontrol li.highlight ul.childNav li.highlight a:hover{color:#fff;}
+ul.menucontrol li:hover ul.childNav { display:block;}
