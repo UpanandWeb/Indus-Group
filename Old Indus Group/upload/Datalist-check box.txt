@@ -1,0 +1,33 @@
+  protected void chkallup_CheckedChanged(object sender, EventArgs e)
+    {
+        if (chkallup.Checked)
+        {
+            foreach (DataListItem  dl in dlSavedjobs.Items)
+            {
+                //System.Web.UI.WebControls.CheckBox chkone = dl.FindControl("chkone") as System.Web.UI.WebControls.CheckBox;
+                CheckBox chkone = dl.FindControl("chkone") as CheckBox;
+                Label lblid = dl.FindControl("lblid") as Label;
+                if (chkone.Checked)
+                {
+                    chkone.Checked = true;
+                    relist += Convert.ToString(lblid.Text) + ",";
+                }
+                else
+                {
+                    chkone.Checked = false;
+                    chkallup.Checked = false;
+                }
+            }
+        }
+        if (relist != null)
+        {
+            lblnoofsavedjobs.Text = relist;
+        }
+        else
+        {
+            lblnoofsavedjobs.Text = "";
+            rscount = 0;
+        }
+         count=Convert.ToInt32(lblnoofsavedjobs.Text.ToString());
+        
+    }
