@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+      .effectContainer { margin:0;}
+      #example1 .effectContainer { width:295px;  height:80px; overflow: hidden; }
+      .slide { position: relative; height:80px; width:295px;text-align: center; }
+      .r1 { background: #f7f7f7; }
+      .r1 p { padding-top: 10px; text-align: center; margin: 0; font-size: 0.6em; }
+      .r2 { background: #fff; }
+      .r3 { text-align: left; }
+      #introslide { background: #000; color: #eee; text-align: center; z-index: 500; }
+      #introslide p { padding-top: 50px; font-size: 0.9em; margin: 0;}
+      #navigation { height: 15px; background: green; }
+      div.circular { width: 128px; height: 128px; background: none; }
+      .circular .slide { width: 120px; height: 120px; border: 4px solid #000; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; line-height: 120px; text-align: center; font-size: 22pt; font-weight: bold; }
+      
+      .s1 { background: #f00; }
+      .s2 { background: #ff0; }
+      .s3 { background: #0f0; }
+      .s4 { background: #0ff; }
+      .s5 { background: #00f; }
+      .s6 { background: #f0f; }
+      .s7 { background: url('buzzard.jpg') center no-repeat; }
+      
+      #example3 { margin: 2em 0 0 0; }
+      #example3 > div { float: left; }
+      #example3 a { margin: 50px 10px 0 10px; text-decoration: none; color: #000; font-weight: bold; border: 1px solid #000; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; width: 2em; height: 2em; line-height: 2em; text-align: center; display: inline-block; }
+      #example3 a:hover { background: #000; color: #fff; }
+/* 
+div.fadenav { position: absolute; bottom:10px; right: 10px; }
+div.fadenav a { display: block; background: #ccc; width: 12px; height: 12px; margin: 0 0 0 2px; float: left; overflow: hidden; -moz-border-radius: 50%; -webkit-border-radius: 50%; border-radius: 50%; border: 1px solid #000; }
+div.fadenav a:hover { text-decoration: none; }
+div.fadenav a.current { background: #2c548c; }*/
+
+
