@@ -1,0 +1,11 @@
+document.write('<table width=100% border=1 cellpadding=2 bgcolor=ffcc00 cellspacing=0 bordercolordark=#FFFF66 bordercolorlight=#FF3333>');
+document.write('<tr align=center valign=middle><td>');
+document.write('<font face=verdana size=1>');
+document.write('&nbsp;&nbsp;Copyright © Neighbourhood Yellow Pages, Chennai.2002 ');
+document.write('All rights reserved.<br>');
+document.write('&nbsp;|&nbsp;<a href=desclaim.htm>Disclaimer</a>');
+document.write('&nbsp;|&nbsp;<a href=copyright.htm>Copyright</a>');
+document.write('&nbsp;|&nbsp;<a href=bookmark.htm>Bookmark</a>');
+document.write('&nbsp;|&nbsp;<a href=trademark.htm>Trademark</a>');
+document.write('</font>');
+document.write('</td></tr></table>');

@@ -1,0 +1,57 @@
+.ast {font-family:verdana;font-size:10pt;color:#blue; }
+.tbdf {font-family:verdana;font-size:10pt;color:#000000; FONT-WEIGHT: bold}
+
+/*select, INPUT, textarea {BACKGROUND-COLOR: #ffffff;	BORDER-BOTTOM-COLOR: #000000; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-COLOR: #000000; BORDER-LEFT-WIDTH: 1px; BORDER-RIGHT-COLOR: #000000; 	BORDER-RIGHT-WIDTH: 1px;BORDER-TOP-COLOR: #000000; 
+BORDER-TOP-WIDTH: 1px; 	FONT-FAMILY: Verdana; 	FONT-SIZE: 8pt}*/
+.but {BACKGROUND-COLOR: #cccccc; BORDER-BOTTOM-COLOR: #000000; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-COLOR: #000000; BORDER-LEFT-WIDTH: 1px;	BORDER-RIGHT-COLOR: #000000; BORDER-RIGHT-WIDTH: 1px;	BORDER-TOP-COLOR: #000000; BORDER-TOP-WIDTH: 1px; FONT-FAMILY: Verdana; 	FONT-SIZE: 8pt; color: #003399; font-weight: bold; CURSOR: pointer; BORDER-RIGHT: #ccc 1px outset; PADDING-RIGHT: 0.2em; BORDER-TOP: #fff 1px outset; PADDING-LEFT: 0.2em; PADDING-BOTTOM: 0.1em; BORDER-LEFT: #fff 1px outset; COLOR: #333; PADDING-TOP: 0.1em; BORDER-BOTTOM: #ccc 1px outset; BACKGROUND-COLOR: #ddd; TEXT-DECORATION: none
+}
+
+.tbox
+{BACKGROUND-COLOR: #ffffff;	BORDER-BOTTOM-COLOR: #000000; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-COLOR: #000000; BORDER-LEFT-WIDTH: 1px; BORDER-RIGHT-COLOR: #000000; 	BORDER-RIGHT-WIDTH: 1px;BORDER-TOP-COLOR: #000000; 
+BORDER-TOP-WIDTH: 1px; 	FONT-FAMILY: Verdana; 	FONT-SIZE: 8pt}
+.tbox1
+{BACKGROUND-COLOR: #ffffff;	BORDER-BOTTOM-COLOR: #000000; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-COLOR: #000000; BORDER-LEFT-WIDTH: 1px; BORDER-RIGHT-COLOR: #000000; 	BORDER-RIGHT-WIDTH: 1px;BORDER-TOP-COLOR: #000000; 
+BORDER-TOP-WIDTH: 1px; 	FONT-FAMILY: Verdana; 	FONT-SIZE: 8pt;width:150;}
+
+.ddlist
+{BACKGROUND-COLOR: #ffffff;	BORDER-BOTTOM-COLOR: #000000; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-COLOR: #000000; BORDER-LEFT-WIDTH: 1px; BORDER-RIGHT-COLOR: #000000; 	BORDER-RIGHT-WIDTH: 1px;BORDER-TOP-COLOR: #000000; 
+BORDER-TOP-WIDTH: 1px; 	FONT-FAMILY: Verdana; 	FONT-SIZE: 8pt}
+.tarea 
+{BACKGROUND-COLOR: #ffffff;	BORDER-BOTTOM-COLOR: #000000; BORDER-BOTTOM-WIDTH: 1px; BORDER-LEFT-COLOR: #000000; BORDER-LEFT-WIDTH: 1px; BORDER-RIGHT-COLOR: #000000; 	BORDER-RIGHT-WIDTH: 1px;BORDER-TOP-COLOR: #000000; 
+BORDER-TOP-WIDTH: 1px; 	FONT-FAMILY: Verdana; 	FONT-SIZE: 8pt}
+.ErrMsg
+{
+	font-family:Verdana;
+	Color:Red;
+	font-size:13;
+}
+
+a {text-decoration: none}
+A.t{FONT-FAMILY: verdana; FONT-SIZE: 12px; FONT-WEIGHT: bold}
+.t{FONT-FAMILY: verdana; FONT-SIZE: 10px}
+.mdm{FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY:Verdana ; TEXT-DECORATION: none}
+.text{font-family:verdana;font-size:11px;color:#000000;}
+.textbold{font-family:verdana;font-size:11px;color:#000000;FONT-WEIGHT: bold}
+
+.text1{font-family:verdana;font-size:11px;color:#000099;}
+.tb{FONT-FAMILY: verdana; FONT-SIZE: 12px}
+.FR{FONT-FAMILY: verdana; FONT-SIZE: 12px; background-color: #FFFF99}
+.F1{font-family:verdana;font-size:11px;color:#ffffff; }
+.tt{	FONT-FAMILY: verdana; FONT-SIZE: 12px}
+.F1 {font-family:verdana;font-size:11px;color:#ffffff; }
+.phn {font-family:verdana;font-size:8pt;color:#882200; }
+.hos {font-family:verdana;font-size:10pt;color:#882200; }
+.vis { 
+ background-color: #006633; font-family: verdana; font-size: 10pt; color: #FFFF33; font-weight: bold}
+
+.mmenu_link A { font-family: Verdana; text-align: center; font-size: 8pt; font-weight: bold; color:#0000FF; padding: 4px; display:block; background: #F9EDA0; text-decoration: none; border: 0px solid; border-color: #D5F29B #5E752F #7CB40D #CCFF99}
+.mmenu_link A:hover { font-family: Verdana; text-align: center; font-size: 8pt; font-weight: bold; color: White; padding: 4px; display:block; background: #6B6DDE; text-decoration: none; border: 0px solid; border-color: #ABCAE7 #0E1E2D #1F4566 #73A8D7}
+
+.footer1 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; line-height: normal; color: #882200; font-weight: normal; text-decoration: none}
+
+
+.footer { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; line-height: normal; color: #882200; font-weight: normal; text-decoration: none}
+
+.footer:hover { color: #882200; text-decoration: underline}
+
+	
