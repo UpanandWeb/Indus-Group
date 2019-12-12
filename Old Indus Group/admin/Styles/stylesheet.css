@@ -1,0 +1,360 @@
+body {background-color:#fafdff;font-family: Geneva, Arial, Helvetica, sans-serif;}
+
+a:link { 
+	color: #00277a;
+	text-decoration:none;
+	word-spacing:3px;		  
+}
+a:visited {
+	color: #00277a ;
+	text-decoration:none;
+	word-spacing:3px; 
+}
+
+a:hover { 
+	color: #00277a; 
+	text-decoration:underline; 
+	word-spacing:3px; 
+}
+
+a:active { 
+	color: #00277a; 
+	text-decoration:none; 
+	word-spacing:3px; 
+}
+
+h2
+{
+	color: #cf3131; 
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight:bold;
+	text-decoration:underline;
+	padding:10px 0px 0px 20px;
+	text-align:left;
+}
+
+/*font family  and size*/
+.style1 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.seperator	{
+	color: #0e4860;
+	font-size: 11px;
+}
+.seperator1	{
+	color: #1270a3;
+	font-size: 11px;
+}
+.button { 
+	color: #fff; 
+	font-size: 10px; 
+	background-color: #ff9600; 
+	width: 100px; height: 20px; 
+	border-color: #fff; 
+	border-width: 1px; 
+}
+.button1 { 
+	font-size: 10px; 
+	width: 50px; height: 20px; 
+}
+.inputbox { 
+	color: #2b395c; 
+	text-decoration: none; 
+	margin: 0; 
+	padding: 0; 
+	border-color: #ff9600; 
+	border-width: 1px; 
+}
+.login { color: #cf3131; 
+	font-size: 12px; 
+	background-color: #ffffff; 
+}
+.lable { 
+	color: #00277a; 
+	font-size: 11px; 
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+.lblog { 
+	color: #7a7a7b; 
+	font-size: 20px; 
+	
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+.lableb { 
+	color: #990000; 
+	font-size: 11px; 
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.labled { 
+	color: #690a66;
+	font-size: 11px; 
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.labledd { 
+	color: maroon;
+	font-size: 11px; 
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.lable9 { 
+	color: #00277a; 
+	font-size: 11px; 
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	
+}
+
+.menu a:link { color: #003399; text-decoration:none;font-family: Geneva, Arial, Helvetica, sans-serif;font-size: 11px; }
+
+.menu a:visited { color: #003399; text-decoration:none;font-family: Geneva, Arial, Helvetica, sans-serif;font-size: 11px;}
+
+.menu a:hover { color: #003399; text-decoration:underline;font-family: Geneva, Arial, Helvetica, sans-serif;font-size: 11px;}
+
+.menu a:active { color: #003399; text-decoration:none;font-family: Geneva, Arial, Helvetica, sans-serif;font-size: 11px;}
+
+.td { 
+	margin: 0; 
+	padding: 0; 
+	 padding-left:5px; font-size:11px;}
+	
+	.tdxm { 
+	margin: 0; 
+	padding: 0; 
+	border: none; padding-left:5px; font-size:11px;}
+	
+	
+.td1 { 
+	margin: 0; 
+	padding: 0; 
+	padding-left:3px;}
+.tdimg { background-image:url(../images/indusabroad_bg.jpg) ;color:#ffffff;  }
+.tdimg  a:link { color: #2e0e68; text-decoration:none;font-family: Geneva, Arial, Helvetica, sans-serif;font-size: 12px; font-weight:bold; }
+.tdimg  a:visited { color: #2e0e68; text-decoration:none;font-family: Geneva, Arial, Helvetica, sans-serif;font-size: 12px;font-weight:bold;}
+.tdimg  a:hover { color: #2e0e68; text-decoration:underline;font-family: Geneva, Arial, Helvetica, sans-serif;font-size: 12px; font-weight:bold;}
+.tdimg  a:active { color: #2e0e68; text-decoration:none;font-family: Geneva, Arial, Helvetica, sans-serif;font-size: 12px; font-weight:bold;}
+
+.pad{ padding-top:0; padding-bottom:0; padding-left:2px; padding-right:2px;}
+.style3 {
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.style6 {color: #000066; font-weight: bold; }
+.style7 {color: #666666; font-size: 11px;}
+.style9 {font-family: Geneva, Arial, Helvetica, sans-serif;}
+.style9 {font-family: Geneva, Arial;}
+.style12 {
+	color: #000066;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+.stylerk {
+	color: #ff6600;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+.stylead {
+	color: #000066;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Times New Roman;
+}
+.stylead1 {
+	color: #000000;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Times New Roman;
+}
+log	{
+	color: #ffffff;
+}
+.form { font-size: 11px; height: 10px; }
+
+.txtads a:link { text-decoration:none;font-family: Geneva, Arial, Helvetica, sans-serif;font-size: 11px}
+.txtads a:visited {text-decoration:none;font-family: Geneva, Arial, Helvetica, sans-serif;font-size: 11px}
+.txtads a:hover { text-decoration:underline;font-family: Geneva, Arial, Helvetica, sans-serif;font-size: 11px}
+.txtads a:active {text-decoration:none;font-family: Geneva, Arial, Helvetica, sans-serif;font-size: 11px}
+.cities { font-family: Geneva, Arial, Helvetica, sans-serif;font-size: 11px; }
+.style13 {font-size: 11px}
+.style23 {font-size: 12px; color: #ffffff;}
+.style11 {font-size: 9px}
+.style14 {color: #003399}
+.style16 {font-weight: bold}
+.style17 {color: #336633}
+.ErrMsg {color:Red;font-size:11;font-weight:bold}
+.style13 {font-size: 11px}
+.style14 {color: #003399}
+.style15 {color: #993300;font-weight: bold; font-size:11px;}
+.style18 {color: #993300;font-weight: bold; font-size:12px;}
+.style007 {color: #fffaf0}
+
+.headings1 { 
+	color: #fff; 
+	background-color: #ffffff; 
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	height: 5px;  	
+	padding-left: 5px;
+}
+
+.headings { 
+	color: #174eb4; 
+	background-color: #ffffff; 
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	height: 15px;  	
+	padding-left: 5px; 
+}
+
+.headings3 { 
+	color: #ffffff; 
+	background-color: #336699; 
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	height: 17px;  	
+	padding-left: 5px; 
+}
+
+
+.headings2 { 
+	color: #174eb4;
+	background-color: #ffffff; 
+	font-size: 13px;
+	font-weight: normal;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	height: 20px;  	
+	padding-left: 15px;
+	width:10%;
+	
+}
+
+
+.headings2_phone { 
+	color: #174eb4;
+	background-color: #ffffff; 
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	height: 10px;  	
+	padding-left: 15px;
+	width:10%;	
+}
+.headings2_terms { 
+	color: #174eb4;
+	background-color: #ffffff; 
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	height: 20px;  	
+	padding-left: 15px;
+	width:20%;
+	
+}
+.headings2_terms1 { 
+	color: #174eb4;
+	background-color: #ffffff; 
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	height: 20px;  	
+	padding-left: 15px;
+	width:16%;
+	
+}
+.headings2_skls { 
+	color: #174eb4;
+	background-color: #ffffff; 
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	height: 20px;  	
+	width:6%;
+	
+}
+.headings2_rb { 
+	color: #174eb4;
+	background-color: #ffffff; 
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	height: 20px;  	
+	padding-left: 0px;
+	width:10%;
+	
+}
+.headings2_colon { 
+	color: #174eb4;
+	background-color: #ffffff; 
+	font-weight: normal;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	height: 20px;  	
+	width:2%;
+	
+}
+.headings2_percent { 
+	color: #174eb4;
+	background-color: #ffffff; 
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	height: 20px;  	
+	width:11%;
+	
+}
+.headings2_percent1 { 
+	color: #174eb4;
+	background-color: #ffffff; 
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	height: 20px;  	
+	width:8%;
+	
+}
+.headings2_percent3 { 
+	color: #174eb4;
+	background-color: #ffffff; 
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	height: 10px;  	
+	width:6%;
+	
+}
+.headings2_state { 
+	color: #174eb4;
+	background-color: #ffffff; 
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	height: 10px;  	
+	width:17%;
+	
+}
+.headings2_percent2 { 
+	color: #174eb4;
+	background-color: #ffffff; 
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	height: 20px;  	
+	width:4%;
+	
+}
+.headings4 { 
+	color: maroon;
+	font-size: 15px; 
+	font-weight:bold;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	height: 15px;  	
+	padding: 10px 0px 5px 0px; 
+	text-decoration:underline;
+}
