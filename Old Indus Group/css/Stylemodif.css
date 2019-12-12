@@ -1,0 +1,39 @@
+﻿body{font-size:small;font-family:Verdana,Arial;color:#666666;}
+span{font-family:'Times New Roman' , Times, serif;}
+a{color:#308CF1;text-decoration:none;font-size:small;}
+a:hover{color:#308CF1;text-decoration:underline;font-size:small;}
+h1{font-family:Times New Roman,Arial;font-size:3em;text-align:center;color:#FFFFFF;}
+h2{color:#808080;font-size:1.0em;border-bottom:1px solid #f0f0f0;}
+#container{margin:0 auto;width:900px;background:#fff;padding:10px;}
+#loginbox, #addbox{width:400px;padding:40px;margin:0 auto;}
+.little{font-size:0.7em;}
+dl{line-height:20px;}
+dt{font-weight:bold;font-size:0.8em;color:#808080;}
+#header{padding:20px;background-color:#0066CC;}
+#content{width:900px;margin-bottom:30px;}
+.formtitle{background:#eee;font-family:Arial;font-size:15px;color:#303030;font-weight:bold;width:150px;text-align:right;}
+.formtitle1{background:#eee;text-transform:uppercase;font-size:9px;color:#303030;font-weight:bold;width:200px;text-align:left;}
+.formdata{background:#fff;width:330px;text-align:left;}
+#breadcrumb{font-size:.9em;color:#303030;padding:5px;padding-bottom:10px;}
+.validator{color:#FF3300;font-size:9px;}
+.frame{border-right:#cccccc 1px solid;font-size:13px;border-top:#cccccc 1px solid;border-left:#cccccc 1px solid;border-bottom:#cccccc 1px solid;margin:0px;background:#f7f7f7;padding:0px;width:940px;}
+.Status{background:url(../../images/layout/StatusBar.gif) repeat-x;}
+.StatusHolder{border:1px solid #cccccc;background:#f0f0f0;}
+input{font-size:11px;height:22px;}
+.error{margin-top:5px;margin-bottom:5px;padding:5px;background-color:#fbfbaf;border:1px solid #aaaaaa;color:#002233;}
+.gridviewhdr{padding:20px;background-color:#999999;font-weight:bold;color:#FFFFFF;height:30px;text-align:center;}
+#menu{clear:both;margin:0;background:url(images/menu.jpg) repeat-y center top;font:bold 12px/26px Verdana, Arial, Tahoma, Sans-serif;height:26px;width:810px;padding-right:40px;padding-left:0px;padding-bottom:0px;padding-top:0px;}
+#menu ul{float:left;list-style:none;margin:0;padding:0;width:810px;height:26px;}
+#menu ul li{display:inline;}
+#menu ul li a{display:block;float:left;padding:0 10px;color:#FFF;text-decoration:none;}
+#menu ul li a:hover{background-color:#FFFFFF;color:#0066FF;}
+#menu ul li#current a{background-color:#FFFFFF;color:#0066FF;}
+.whitetext{font-family:Verdana, Geneva, sans-serif;font-size:14px;color:#fff;font-weight:Bold;}
+.tabheader .ajax__tab_header .ajax__tab_tab{padding-top:8px;text-align:center;height:33px;font-size:14px;font-weight:bold;font-family:Arial;}
+.tabheader .ajax__tab_body{font-family:Arial;font-size:10pt;border-top:0;border:1px solid #999999;padding:8px;background-color:#FFFFFF;}
+.modalBackground{background-color:Gray;filter:alpha(opacity=80);opacity:0.8;}
+.tabheader .ajax__tab_active .ajax__tab_inner ,tabheader .ajax__tab_active .ajax__tab_tab{background-color:#4AA02C;height:33px;font-size:14px;font-weight:bold;color:#FFFFFF;font-family:Arial;}
+.tabheader .ajax__tab_hover .ajax__tab_inner ,.tabheader .ajax__tab_hover .ajax__tab_outer{background-color:#B0C4DE;height:33px;font-size:14px;font-weight:bold;color:#483D8B;font-family:Arial;}
+.Userformtitle{background:#eee;text-transform:uppercase;font-size:9px;color:#303030;font-weight:bold;width:40%;text-align:right;}
+.Userformtitle1{background:#eee;text-transform:uppercase;font-size:9px;color:#303030;font-weight:bold;width:60%;text-align:left;float:left;}
+.water1{font-family:Arial;color:#808080;font-size:small;}

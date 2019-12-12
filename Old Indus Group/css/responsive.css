@@ -1,0 +1,1244 @@
+@charset "utf-8";
+@media all and (max-width: 768px) {
+  #sap-second-slider .item > img {
+    height: 300px;
+  }
+  #download-document-fields-wrapper .input-fields {
+    max-width: 100%;
+  }
+
+}
+@media (max-width:767px) {
+  #sap-third-slider .carousel-control {
+    width: 40px !important;
+  }
+  .time_linewrapper {
+    display: none;
+  }
+  #sap-third-slider .glyphicon-chevron-left {
+    left: 0px;
+  }
+  #sap-third-slider .glyphicon-chevron-right {
+    right: 0px;
+  }
+  .mobile-hide-section{
+    display: none;
+  }
+  .AMS-image.services-page-single{
+    display: block;
+  }
+  .walkin-all-datta{
+    border:0;
+  }
+  
+   .full-background, .bg-small-height, .normal-page-container,#sap-landing-carousel .item, .yash-webinar .section.slider,
+  .yash-digital-center .slider-banner, .career-banner-wrapper, .event-page-banner, .webinar-page-banner, .yash-press-release .yash-digital-center-section, .press-release-section .bg-small-height{
+    background-image: none !important;
+    background-color: #003d66;
+  }
+ /* div:not(.page-id-89 .full-background){
+    background-image: none !important;
+    background-color: #003d66;
+  }*/
+
+  
+ /* .page-id-89 .full-background, .page-id-103 .full-background,.page-id-131 .full-background,
+  .page-id-195 .full-background, .page-id-213 .full-background, .page-id-231 .full-background{
+     background-color: transparent;
+  }*/
+
+  .page-id-205 .about-us-content img{
+    max-width: 100%;
+  }
+  .yash-webinar .yash-live-event-wraper{
+    padding-top: 20px;
+  }
+  .breadcrumbs{
+        z-index: 99;
+    margin-top: 10px;
+    padding-bottom: 10px;
+  }
+  .walkin-all-datta>div:nth-child(2n+1){
+    border-right: 0;
+  }
+ 
+/*yash css*/ 
+.hiring-form span.wpcf7-list-item, .hiring-form .question6 span.wpcf7-list-item{ display:block; width:100%; margin-bottom:5px; margin-right:0}
+
+
+}
+@media all and (min-width:450px) and (max-width:767px) {
+  #upcoming-webinar .slider_content{
+    width:85%;
+  }
+ 
+}
+@media all and (max-width: 1050px) {
+  #sap-third-slider {
+    overflow: hidden;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  .slider-profile-information {
+    padding-top: 30px;
+  }
+  #sap-third-slider .carousel-content {
+    padding-top: 30px;
+  }
+  .slider-profile-image {
+    width: 140px;
+    padding-top: 50px;
+  }
+  #myCarousel1, #myCarousel1 .carousel-inner, #myCarousel1 .item {
+    background-color: #e33529;
+
+  }
+  #myCarousel1 .item > img {
+    height: 100%;
+  }
+  .services-main-image img, .upcoming-webinar-img-wrapper img {
+    width: initial !important;
+  }
+  /*---------------------- AMS page css starts here ---------------------------*/
+  .AMS-image img {
+    height: 300px;
+    width: auto;
+  }
+  .small-wave img{
+    height: 100% !important;
+  }
+  .AMS-dropdown p {
+    text-align: center;
+  }
+  .table_layout p {
+    font-size: 14px;
+  }
+  .AMS-organisation ul {
+    padding-left: 20px;
+  }
+  #ams-dropdown-options {
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px;
+    line-height: 25px;
+  }
+  /*---------------------- AMS page css ends here ---------------------------*/
+  /*----------------------- Automative page css starts here --------------------------------------------*/
+  .automative-wrapper {
+    position: absolute;
+  }
+  .table_layout p {
+    font-size: 14px;
+  }
+  .upcoming-webinar-wrapper {
+    position: relative;
+    text-align: center;
+  }
+  #carousel-automative-delivery .inner_page {
+    padding-left: initial;
+  }
+  #carousel-automative-delivery .carousel-control .icon-prev, #carousel-automative-delivery .carousel-control .icon-next, #carousel-automative-delivery .carousel-control .glyphicon-chevron-left, #carousel-automative-delivery .carousel-control .glyphicon-chevron-right {
+    top: 52%;
+    margin-top: 0px;
+  }
+  #automativeCarousel .slider-content-wrapper {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+/*----------------------- Automative page css ends here --------------------------------------------*/
+
+@media (max-width:500px) {
+  .time_linewrapper {
+    display: none !important;
+  }
+}
+
+@media all and (min-width:500px) and (max-width:624px) {
+	
+.flip-container{ height:200px !important}
+.flip-back-content{ min-height:100px !important}
+}
+
+@media all and (max-width: 767px) {
+  .home-slider-heding{
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+  .why-yash-benefits-wrapper {
+    height: auto;
+  }
+  .upcoming-webinar-img-wrapper .carousel-control.right>img, .upcoming-webinar-img-wrapper .carousel-control.left>img {
+    height: 24px;
+    width: 20px !important;
+  }
+  .upcoming-webinar-img-wrapper .carousel-control.right {
+    right: 0%;
+  }
+  .upcoming-webinar-img-wrapper .carousel-control.left {
+    left: 0%;
+  }
+  .desk-top-right {
+    float: left;
+  }
+  .webinar-item p {
+    font-size: 14px;
+  }
+  .fixed-button {
+    width: auto;
+    height: 150px;
+  }
+  .fixed-button a {
+    height: 100%;
+    display: inline-block;
+  }
+  .fixed-button a img {
+    height: 100%;
+  }
+  .resp-tab-content h3, h2.resp-accordion h3 {
+    font-size: 25px !important;
+  }
+  .resp-tabs-content-block p {
+    font-size: 14px !important;
+  }
+  #developmentOffices .col-xs-12.col-sm-4.col-md-4, #sales-offices .col-xs-12.col-sm-4.col-md-4 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+  }
+  .walkin-all-datta .job-details {
+    flex: 0 0 100%;
+  }
+  .walkin-all-datta .job-details {
+    padding: 0;
+  }
+  /*only for home page main slider*/
+  .home-page-big-slider {
+    padding: 0px !important;
+  }
+  /*.home-page-big-slider {
+    position: absolute !important;
+  }*/
+  .home-page-big-slider .item img {
+    height: 360px;
+  }
+  .home-page-big-slider .item img {
+    width: auto !important;
+    max-width: none !important;
+  }
+  /*only for home page main slider*/
+  .AMS-description > div:first-child {
+    width: calc(100% - 30px);
+  }
+  .service-popup-slider-links ul li a {
+    font-size: 16px;
+    margin-bottom: 15px;
+    display: inline-block;
+    font-family: "SegoeRegular";
+  }
+  #services-icons-information-popup {
+    width: calc(100% - 30px);
+    left: 15px;
+  }
+  .smaller-screens-width {
+    margin-top: 30px;
+    padding: 0px;
+  }
+  .footer_navbar .social-media-icons, .footer_navbar .footer_links {
+    margin-top: 15px;
+  }
+  .footer_navbar {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .footer .container {
+    height: inherit;
+    padding: 10px 0;
+  }
+  .landing-page-content {
+    padding: 0 15px;
+  }
+  /*.service-popup-slider-links ul li {
+    margin-right: 0px;
+    line-height: 1.4em;
+  }*/
+  h1 {
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+  .footer p {
+    text-align: center;
+  }
+  .nav-slider-buttons {
+    width: 40px !important;
+  }
+  .services_wrapper >div {
+    margin-bottom: 30px;
+  }
+  .fixed-button {
+    display: none;
+  }
+  #myCarousel {
+    background-color: #003d63;
+    padding: 50px 20px;
+  }
+  #myCarousel .item {
+    height: 360px;
+  }
+  #myCarousel1 {
+    background-color: #e33529;
+
+  }
+  .table_layout p {
+    font-size: 14px;
+  }
+  .big_text {
+    font-size: 24px;
+  }
+  .small_text {
+    font-size: 14px;
+  }
+  #topHeader, #bottom_top_Header {
+    width: 100%;
+  }
+  .navbar-nav {
+    margin: 0;
+  }
+  #myCarousel, #myCarousel1 {
+    position: relative;
+  }
+  /*.events_wrapper {
+    position: absolute;
+  }*/
+  .footer-nav-wrapper {
+    padding: 0px;
+  }
+  .footer_navbar ul {
+    text-align: center;
+    float: none;
+  }
+  .social-media-icons {
+    text-align: center;
+    width: 100%;
+  }
+  .footer_navbar {
+    width: 100%;
+  }
+  .more_links h3 {
+    font-size: 20px;
+  }
+  .more_links li a {
+    font-size: 16px
+  }
+  .read_more_button {
+    font-size: 14px;
+  }
+  /*global delivery css starts here*/
+  .global_model img {
+    height: 267px;
+    max-width: none;
+    margin-left: 0px;
+  }
+  /*------------------------------- services page css starts here -----------------------------*/
+  {
+    position: absolute;
+  }
+  .service-icons-container > div {
+    margin-top: 10px;
+  }
+  .services-main-image img, .upcoming-webinar-img-wrapper img {
+    max-width: none;
+    height: 400px;
+    width: initial !important;
+  }
+  .service-icons-container {
+    padding: 0px;
+  }
+  .offering-header >div {
+    padding-left: 0px;
+  }
+  .services-main-image img, .upcoming-webinar-img-wrapper img {
+    max-width: none;
+    height: 400px;
+  }
+  /*---------------services page css ends here---------------------------*/
+  /*-----------------sap landing page css starts here-------------*/
+  #sap-landing-carousel .item img, #sap-second-slider .item img {
+    height: 300px;
+    width: auto;
+    margin-left: 0;
+    max-width: none;
+  }
+  /*------------------------sap landing page css ends here-----------------------*/
+  /*----------------------contact page css starts here--------------------------*/
+  .contactus-main-image img {
+    height: 400px;
+    width: auto;
+    margin-left: 0;
+    max-width: none;
+  }
+  /*----------------------contact page css ends here-------------------------*/
+  /*---------------------- AMS page css starts here ---------------------------*/
+  .AMS-image img {
+    height: 300px;
+    width: auto;
+  }
+  .AMS-dropdown p {
+    text-align: center;
+  }
+  .table_layout p {
+    font-size: 14px;
+  }
+  .inner-AMS-dropdown img {
+    margin-top: 20px;
+  }
+  .AMS-organisation ul {
+    padding-left: 20px;
+  }
+  #ams-dropdown-options {
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px;
+    line-height: 25px;
+  }
+  /*---------------------- AMS page css ends here ---------------------------*/
+  /*----------------------- Automative page css starts here --------------------------------------------*/
+  .automative-wrapper {
+    position: absolute;
+  }
+  .table_layout p {
+    font-size: 14px;
+  }
+  .upcoming-webinar-wrapper {
+    position: relative;
+    text-align: center;
+  }
+  .full-background {
+    height: 60vh;
+  }
+  .breadcrumbs {
+    padding-left: 0px;
+  }
+  .sap-content h2 {
+    font-size: 20px;
+  }
+  .sap-fliping-wrapper .fliping-image {
+    width: 50%;
+  }
+  .yash-insighsts .slider_content h3 {
+    font-size: 16px;
+  }
+  #myCarousel .carousel-control, .nav-slider-buttons, #myCarousel1 .carousel-control {
+    width: inherit !important;
+  }
+  .carousel-control.right {
+    right: 15px;
+  }
+  .carousel-control.left {
+    left: 15px;
+  }
+  #automativeCarousel .carousel-control {
+    width: initial;
+  }
+  #myCarousel1 .table_layout {
+    padding: 0 10px;
+  }
+  .privacy-policy-page>ul {
+    padding-left: 0;
+  }
+  .walin-tab .nav-tabs li {
+    width: 25%;
+    margin-bottom: 5px;
+  }
+  .walin-tab .tab-content {
+    width: 100%;
+  }
+  .walkin-table {
+    overflow: scroll;
+  }
+  .walin-tab .job-detail {
+    width: 1000px;
+  }
+  .walin-tab {
+    width: 100%;
+  }
+  .common-all-walkin {
+    font-size: 14px;
+  }
+  .zoom_effect .slider_content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .page-id-311 .all-services{
+    margin-bottom: 20px;
+  }
+   .after-submit-inquiry-form{
+    min-height: 200px;
+  }
+}
+
+/*----------------------- Automative page css ends here --------------------------------------------*/
+
+@media screen and (max-device-width: 768px) and (orientation: portrait) {
+  /*sap landing page css starts here*/
+  .back h2 {
+    font-size: 24px;
+    padding-left: 10px;
+  }
+  /*sap landing page css ends here*/
+}
+@media all and (max-width:540px) {
+  .more-links-div {
+    width: 100%;
+  }
+}
+
+/*-----------------------------webinar and digital-center responsive styles ------------------------------*/
+@media all and (min-width:768px) and (max-width:1024px) {
+  .time_linewrapper .big-wave>img, .time_linewrapper .small-wave>img{
+    float: right;
+    position: relative;
+    width: 100%;
+  }
+}
+@media all and (max-width:1024px) {
+  .big-wave.waves,.bg-small-height .time_linewrapper , .normal-page-container .time_linewrapper{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+            align-items: center;
+  }
+  .flip-container:hover .front {
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+  }
+  .flip-container.hover .front {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
+  .flip-container:hover .back {
+    /*-webkit-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);*/
+    //pointer-events: all;
+  }
+  .flip-container.hover .back {
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+  }
+  .yash-webinar .yash-live-event-wraper .yash-live-webinar-wrapper .yash-live-webinar-box .reg-wrapper a {
+    padding: 6px 20px;
+  }
+  .flip-container {
+    width: 100%;
+  }
+   .menu-item-has-children:hover>.sub-menu {
+    display: none;
+  }
+  .yash-webinar .yash-live-event-wraper .yash-live-webinar-wrapper .yash-live-webinar-box .yash-share a {
+    margin-left: 8px;
+  }
+}
+@media (max-height: 505px) and (orientation: landscape) {
+  #digital-center-subscribe {
+    max-height: calc(100vh - 150px);
+    overflow-y: auto;
+  }
+  #digital-center-subscribe form {
+    padding-right: 10px;
+  }
+  #digital-center-subscribe .submit-button-subscribe input {
+    float: none;
+    margin: 0 auto;
+  }
+}
+@media (max-width:490px) {
+  #digital-center-subscribe .submit-button-subscribe input {
+    float: none;
+    margin: 0 auto;
+  }
+}
+@media all and (max-width:992px) {
+  .inner_description2 h3 {
+    font-size: 25px;
+  }
+  .flip-container {
+    width: 100%;
+  }
+  .footer>div {
+    height: auto;
+  }
+  .footer>div>div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .flip-container .table_layout h1 {
+    font-size: 30px;
+    margin-top: 0px;
+  }
+  .resp-tabs-container-inner>div>div>div, .yash-latest-downloads>div>div {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+  }
+  .resp-tabs-container-inner>div>div>div:nth-child(2n+1) {
+    padding-left: 0px;
+  }
+  .resp-tabs-container-inner>div>div>div:nth-child(2n+2) {
+    padding-right: 0px;
+  }
+  .yash-latest-downloads .resp-tabs-container-inner>div:nth-child(2n+1) {
+    padding-left: 0px;
+    padding-right: 15px;
+  }
+  .yash-latest-downloads .resp-tabs-container-inner>div:nth-child(2n+2) {
+    padding-right: 0px;
+    padding-left: 15px;
+  }
+  .yash-webinar .yash-live-event-wraper .yash-live-webinar-wrapper {
+    border-right: 0px;
+  }
+  .yash-webinar .yash-live-event-wraper .yash-live-event-search-wraper input, .yash-press-release .yash-press-release-content-wrap .yash-press-release-search-wrap input {
+    margin-bottom: 15px;
+    height: 40px;
+  }
+  .section.slider {
+    height: 50vh;
+  }
+  .yash-webinar .yash-live-event-wraper .yash-event-webinar-wrapper {
+    padding-right: 15px;
+  }
+  .yash-events-inner .slider .carousel .item .carousel-caption h1 {
+    font-size: 5vw;
+  }
+  .yash-video-wrap .slick-list {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .yash-video-carousel .slick-next {
+    right: -10px;
+  }
+  .yash-video-carousel .slick-prev {
+    left: -10px;
+  }
+  .big_text {
+    font-size: 30px;
+  }
+  .services_wrapper >div {
+    margin-bottom: 30px;
+  }
+   .country-select{
+    margin-right: 10px;
+  }
+  .country-select option{
+    font-size: 12px;
+  }
+  .opportunity-image{
+    margin-bottom: 20px;
+  }
+  /*.job-direct-links{
+   margin-bottom: 10px;
+    display: inline-block;
+    width: 100%;
+  }*/
+  /*.more_links_wrapper>div.container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }*/
+  .big-description>div {
+    margin-bottom: 20px;
+  }
+  .container {
+    width: 100%;
+  }
+}
+@media all and (min-width:767px) and (max-width:992px) {
+  #developmentOffices .col-xs-12.col-sm-4.col-md-4, #sales-offices .col-xs-12.col-sm-4.col-md-4 {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+  }
+}
+@media all and (max-width:767px) {
+  .yash-insighsts h1{
+    font-size: 20px;
+  }
+  .caption_content_wrapper p {
+    text-align: center;
+  }
+  .cgpa-percent {
+    margin-top: 15px !important;
+  }
+  .yash-webinar .yash-live-event-wraper .yash-live-event-search-wraper form >div {
+    padding: 0px;
+  }
+  .yash-events-inner .slider {
+    height: calc(100vh - 100px) !important;
+  }
+  .yash-events-inner .slider .carousel .item .carousel-caption .event-date-location {
+    font-size: 14px;
+    text-align: left;
+  }
+  .yash-events-inner .slider .carousel .item .carousel-caption .event-date-location>div {
+    margin-bottom: 15px;
+  }
+  .yash-events-inner-content-inner h2 {
+    font-size: 24px;
+    line-height: 1.4em;
+  }
+  .yash-events-inner-content, .yash-events-inner-content-inner ul li span {
+    font-size: 14px;
+  }
+  .yash-events-inner-content-inner .brochure-download>div:first-child {
+    margin-top: 0px;
+  }
+  .yash-events-inner-content-inner .brochure-download>div {
+    margin-top: 35px;
+  }
+  .yash-events-inner-content-inner .brochure-download a {
+    font-size: 16px;
+  }
+  .content-inner-blocks {
+    margin-bottom: 40px;
+  }
+  .container {
+    width: 100%;
+  }
+  .yash-events-inner .slider .carousel .item .carousel-caption h1 {
+    font-size: 28px;
+    line-height: 1.4em;
+  }
+  .slider .slider-banner .slider-content h1 {
+    font-size: 25px;
+  }
+  .yash-webinar .yash-live-event-wraper .yash-live-event-search-wraper input, .yash-press-release .yash-press-release-content-wrap .yash-press-release-search-wrap input {
+    margin-bottom: 15px;
+    height: 34px;
+  }
+  .yash-webinar .yash-live-event-wraper .yash-live-webinar-wrapper {
+    padding-right: 0px;
+    border: 0px;
+  }
+  .yash-webinar .yash-live-event-wraper .yash-live-webinar-wrapper .yash-live-webinar-box .reg-share {
+    display: block;
+  }
+  .yash-webinar .yash-live-event-wraper .yash-live-webinar-wrapper .yash-live-webinar-box {
+    padding: 20px;
+  }
+  .yash-webinar .yash-live-event-wraper .yash-live-webinar-wrapper .yash-live-webinar-box .reg-wrapper a:last-child {
+    margin-right: 0px;
+  }
+  .yash-webinar .yash-live-event-wraper .yash-live-webinar-wrapper .yash-live-webinar-box .reg-share .reg-wrapper {
+    padding-right: 0px;
+    margin-bottom: 25px;
+  }
+  .yash-webinar .yash-live-event-wraper .yash-live-webinar-wrapper .yash-live-webinar-box h3 {
+    font-size: 20px;
+  }
+  .yash-press-release-inner-content {
+    //  padding: 0px;
+  }
+  .yash-press-release .yash-press-release-content-wrap .yash-press-release-inner-content h2 {
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.2em;
+    margin-bottom: 20px;
+  }
+  .yash-press-release .yash-press-release-content-wrap .yash-press-release-inner-content p {
+    font-size: 14px;
+    text-align: left;
+  }
+  .yash-press-release-year-list li {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.33333%;
+    -ms-flex: 0 0 33.33333%;
+    flex: 0 0 33.33333%;
+  }
+  .yash-press-release-year-slider {
+    margin-bottom: 0px;
+  }
+  .yash-press-release .yash-press-release-content-wrap .yash-press-release-inner-content {
+    margin-top: 8px;
+  }
+  .yash-press-release .yash-press-release-content-wrap .yash-press-release-inner-content .read-more {
+    font-size: 14px;
+  }
+  .press-release-post-date {
+    padding-right: 0px;
+  }
+  .yash-press-release .yash-press-release-content-wrap .yash-press-release-inner-content .press-release-share-post-date {
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    -ms-grid-row-align: flex-end;
+    align-items: flex-end;
+  }
+  .yash-press-release .yash-press-release-content-wrap .yash-press-release-inner-content .press-release-post-date p {
+    margin-bottom: 0px;
+  }
+  .resp-tabs-container-inner>div {
+    padding: 0px;
+  }
+  .yash-digital-centre-footer .row>div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .yash-updates >div>div {
+    padding: 0px;
+  }
+  .yash-updates .yash-partners-block img {
+    width: 100px;
+  }
+  .yash-updates .yash-partners-block span a {
+    font-size: 14px;
+  }
+  .yash-updates h2, .yash-video-wrap h2 {
+    font-size: 25px;
+  }
+  .yash-video-carousel .item-inner h4 {
+    font-size: 16px;
+  }
+  .yash-video-wrap {
+    margin-bottom: 30px;
+  }
+  h2.resp-accordion h3 {
+    font-size: 20px;
+  }
+  .resp-tab-content h2 {
+    font-size: 25px;
+  }
+  .yash-digital-centre-footer h3 {
+    font-size: 25px;
+  }
+  .yash-digital-centre-footer p {
+    font-size: 16px;
+  }
+  .yash-digital-centre-footer .subscribe-now {
+    font-size: 14px;
+  }
+  .resp-tab-content {
+    padding: 0px;
+  }
+  .resp-tabs-container-inner {
+    padding-left: 15px;
+    //padding-right: 15px;
+  }
+  .yash-video-wrap>.container {
+    padding: 0px
+  }
+  .yash-video-wrap .slick-list {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .yash-video-carousel .slick-next {
+    right: -10px;
+  }
+  .yash-video-carousel .slick-prev {
+    left: -10px;
+  }
+  .yash-video-carousel button {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30px;
+    margin-top: -15px;
+  }
+   .opportunity-image{
+    margin-bottom: 0px;
+  }
+}
+@media all and (max-width:550px) and (min-width:475px) {
+  .yash-webinar .yash-live-event-wraper .yash-live-webinar-wrapper .yash-live-webinar-box .reg-share .reg-wrapper {
+    width: 60%;
+    float: left;
+  }
+  .yash-webinar .yash-live-event-wraper .yash-live-webinar-wrapper .yash-live-webinar-box .yash-share {
+    width: 40%;
+    float: left;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+@media all and (max-width:767px) and (min-width:550px) {
+  .yash-webinar .yash-live-event-wraper .yash-live-webinar-wrapper .yash-live-webinar-box .reg-share .reg-wrapper {
+    width: 50%;
+    float: left;
+  }
+  .yash-webinar .yash-live-event-wraper .yash-live-webinar-wrapper .yash-live-webinar-box .yash-share {
+    width: 50%;
+    float: left;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+}
+@media all and (max-width:450px) {
+  /*.yash-insighsts .item{
+    height: 30vh;
+  }*/
+  .yash-webinar .yash-live-event-wraper .yash-event-webinar-wrapper .yash-event-box .yash-event-img {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 15px;
+  }
+  .yash-webinar .yash-live-event-wraper .yash-event-webinar-wrapper .yash-event-box {
+    display: block;
+  }
+  .yash-webinar .yash-live-event-wraper .yash-event-webinar-wrapper .yash-event-box .yash-event-content {
+    width: 100%;
+  }
+  .yash-press-release .yash-press-release-content-wrap .yash-press-release-inner-content .press-release-share-post-date .press-release-share a {
+    width: 25px;
+    margin-left: 8px;
+  }
+  .yash-press-release .yash-press-release-content-wrap .yash-press-release-search-wrap form >div>div, .yash-webinar .yash-live-event-wraper .yash-live-event-search-wraper form >div>div {
+    width: 100%;
+  }
+  .yash-press-release-year-inner-slider>div {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .next-arrow {
+    right: 15px;
+  }
+  .prev-arrow {
+    left: 15px;
+  }
+  .resp-tabs-container-inner >div >div> div, .yash-latest-downloads>div >div {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    padding: 0px !important;
+  }
+  .sap-fliping-wrapper .fliping-image {
+    width: 100%;
+  }
+  /*yash css 5-27-2016*/
+  .aon_logo img{ margin:0 5px; max-width:135px}
+  /*-----------------------------webinar and digital-center responsive styles ends here ------------------------------*/
+}
+
+/*----Header CSS Responsive--*/
+
+@media all and (max-width: 992px) {
+  #header {
+    height: 80px;
+  }
+  .accordion-main-wrapper {
+    height: 236px;
+  }
+   .menu-main-menu-container>ul>li {
+    padding-top: 8px;
+  }
+   .top-menu li>a {
+    font-size: 10px;
+  }
+  .menu-item-has-children .sub-menu {
+    top: 100px;
+  }
+   .menu-item-has-children .sub-menu li a {
+    font-size: 12px;
+  }
+  .header-inner-wrap >div {
+    //padding-left: 0px;
+  }
+  .menu-main-menu-container ul {
+    padding-left: 0px;
+    position: relative;
+    /*left: -999px;*/
+  }
+  .menu-wrapper{
+    left: -999px;
+  }
+  /*.menu-wrapper {
+    left: -999px;
+    z-index: 9999;
+  }*/
+ .logo p {
+    width: 110px;
+  }
+  /*#header .menu-main-menu-container li a {
+  font-size: 10.5px;
+}*/
+  /*header*/
+  .header-inner-wrap >.menu-wrapper {
+    display: none;
+    position: relative;
+    padding: 0px;
+  }
+  .header-inner-wrap >.menu-wrapper, .header-inner-wrap, #header .top-menu>ul, #header .menu-main-menu-container>ul {
+    display: block;
+  }
+  .header-inner-wrap >.menu-wrapper, #header .menu-main-menu-container {
+    height: auto;
+  }
+  .menu-wrapper {
+    z-index: -1;
+  }
+ .menu-main-menu-container {
+    float: left !important;
+    display: block;
+  }
+  .menu-main-menu-container>ul {}
+   .menu-main-menu-container>ul>li {
+    display: block;
+  }
+   .menu-main-menu-container li a {
+    color: #fff;
+    font-size: 16px;
+    font-family: "segoeRegular";
+  }
+ .menu-main-menu-container {
+    width: auto;
+  }
+   .menu-main-menu-container ul {
+    background: #005BA4;
+    width: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    box-shadow: 0px 11px 27px #000;
+  }
+ .menu-main-menu-container ul li {
+    padding: 0px;
+  }
+   .menu-main-menu-container ul li a {
+    padding: 15px 30px;
+    display: inline-block;
+    width: 100%;
+  }
+  .menu-item-has-children .sub-menu {
+    top: 0px;
+    left: 0px;
+  }
+  .menu-item-has-children .sub-menu li a {
+    font-size: 14px;
+    border: 0px;
+  }
+   .menu-main-menu-container li:hover,  li.current-menu-item, #header li.current-page-ancestor {
+    background: rgba(0, 0, 0, 0.2);
+  }
+   .menu-main-menu-container li:hover a, li.current-menu-item a, li.current-page-ancestor a {
+    border: 0px;
+  }
+ .menu-item-has-children .sub-menu li:hover a {
+    border: 0px;
+  }
+ .menu-item-has-children:hover>.sub-menu {
+    display: none;
+  }
+  .mobile-top-menu {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    height: 80px !important;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: row !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .mobile-top-menu a {
+    display: inline-block;
+  }
+  .mobile-top-menu a.menu-toggle span {
+    background-image:url(../img/menu-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 28px;
+    height: 19px;
+    float: left;
+  }
+  .mobile-top-menu .dropdown {
+    margin-right: 8px;
+  }
+  .mobile-top-menu .search-wrap-inner {
+    height: 19px;
+    margin-right: 15px;
+  }
+  .mobile-top-menu .search-wrap-inner img {
+    height: 100%;
+  }
+  .mob-search-wrap-form {
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+ .menu-main-menu-container>ul>li:last-child,  .menu-main-menu-container>ul>li:nth-last-child(2) {
+    display: block;
+  }
+}
+@media all and (min-width:500px) and (max-width:992px) {
+  /*.more_links_wrapper>div.container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .more_links_wrapper>div.container>div {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+  }*/
+}
+@media all and (max-width:400px) {
+  .menu-main-menu-container {
+    width: 100%;
+  }
+  .menu-main-menu-container ul {
+    width: 90%;
+  }
+}
+@media all and (max-width:500px) {
+  .inner-AMS-dropdown {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .service-popup-slider-links ul li {
+    width: 100%;
+  }
+  .service-popup-slider-links ul li {
+    margin-right: 0px;
+    line-height: 1.4em;
+  }
+  .sap-fliping-wrapper >div {
+    width: 100%;
+    padding: 0px;
+  }
+  .search-input-404 {
+    width: 100%;
+    height: 30px;
+  }
+  .search-button-404 {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .walin-tab .nav-tabs li {
+    width: 50%;
+  }
+}
+@media all and (max-width:600px) {
+  .featureTable {
+    overflow-x: scroll;
+  }
+  .featureTable table, .featureTable>h4, .featureTable4Column h2 {
+    width: 650px;
+  }
+  .about-us-content .main-document>div {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+}
+
+/*----Header CSS Responsive End--*/
+
+@media all and (max-width:550px) {
+  .full-background {
+    height: 100vh;
+  }
+  .webinar-email-wrapper, .webinar-submit-wrapper {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .webinar-email-wrapper {
+    padding-right: 15px;
+  }
+  .description_wrapper, .infograph {
+    width: 100%;
+    padding: 0px;
+  }
+}
+@media screen and ( max-height: 450px) {
+  #request-form-wrapper {
+    max-height: calc(100vh - 150px);
+    overflow-y: auto;
+  }
+  #mobile-fixed-req-button {
+    display: block;
+  }
+  #desktop-fixed-req-button {
+    display: none;
+  }
+  #mobile-fixed-req-button a img {
+    height: 145px;
+    position: absolute;
+    top: calc(50% - 72px);
+    right: 0;
+  }
+}
+
+/*map alignment issue */
+
+@media (max-width:991px) {
+  .locations-header {
+    height: 325px;
+  }
+  .map-main-wrapper {
+    margin-top: 20px;
+  }
+  .contact-locations-wrapper {
+    margin-bottom: 0px;
+  }
+ 
+}
+
+@media (max-width:380px) {
+  .logo{
+    padding-left: 5px !important;
+  }
+  .mobile-top-menu .search-wrap-inner, .country-select{
+    margin-right: 8px;
+  }
+  .mobile-top-menu{
+    right: 5px;
+  }
+  
+  
+}
+/* CSS Document */
+
