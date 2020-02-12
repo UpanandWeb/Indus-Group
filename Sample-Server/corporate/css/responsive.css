@@ -1,0 +1,125 @@
+@media only screen and (max-width: 767px) {
+    .email a {
+    text-align: center;
+    }
+    .icons ul li {
+    margin: -6px 10px 10px 17px;
+}
+    .form-control {
+    width: 61%;
+        margin: 16px 10px 10px 47px;
+}
+    .fa.fa-search {
+    margin: 45px 23px 0px -35px;
+}
+    .about-info h3{
+        text-align: center;
+    }
+    .service-section {
+    height: 1803px;
+}
+    .adress h3 {
+    text-align: center;
+}
+    .adress .fa.fa-phone {
+    text-align: center;
+}
+    .adress .fa.fa-envelope-o {
+    text-align: center;
+}
+    .adress-icons{
+        margin-left: -14px;
+    }
+    .adress-icons ul li {
+    margin: 36px 10px 29px 15px;
+    border: 1px solid #9d9d9d;
+}
+}
+@media only screen and (max-width: 967px) {
+    .email a {
+        text-align: center;
+    font-size: 27px;
+    }
+    .icons{
+        margin-left: 22%;
+    }
+    .icons ul li {
+    margin: -12px 12px 10px 23px;
+    font-size: 22px;
+}
+    .form-control {
+    width: 57%;
+        margin: 16px 10px 20px 23%;
+}
+    .fa.fa-search {
+    font-size: 24px;
+    margin: 48px 23px 0px 10%;
+}
+    .nav>li>a {
+    padding: 10px 8px;
+}
+    .nav>li {
+    margin-top: 10px;
+    font-size: 14px;
+}
+    .about-img img {
+    width: 100%;
+}
+    .about-info h3 {
+    text-align: center;
+    font-size: 42px;
+}
+    .about-info p {
+    text-align: justify;
+    font-size: 17px;
+}
+    .i {
+    font-size: 15px;
+    }
+    .service-section {
+    height: 1183px;
+}
+    .news-info h2 {
+    font-size: 43px;
+    padding-bottom: 38px;
+}
+    .news-info h3{
+        text-align: center;
+    font-size: 35px;
+    }
+    .news-info p {
+    padding-bottom: 40px;
+    font-size: 21px;
+
+    }
+    .adress h3 {
+    text-align: center;
+    font-size: 35px;
+}
+    .adress .fa.fa-map-marker {
+    display: block;
+    text-align: center;
+    font-size: 21px;
+}
+    .adress .fa.fa-phone {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+}
+    .adress .fa.fa-envelope-o {
+    text-align: center;
+    font-size: 25px;
+    display: block;
+}
+    .adress-name h2 {
+    font-size: 34px;
+    text-align: center;
+}
+    .adress-icons{
+        margin-left: 24%;
+    }
+    .adress-icons ul li { 
+    font-size: 24px;
+    margin: 25px 10px 44px 15px;
+}
+}
