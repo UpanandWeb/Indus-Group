@@ -1,0 +1,1 @@
+INSERT INTO `employee_deatails` (`Emp. No.`, `Name`, `email`, `Mobile_No.`, `City`, `Message`, `Datetime`) VALUES (NULL, 'Anjali Ma\'am', 'Anjali Ma\'am@gmail.com', '998877', 'Hyderabad', 'Welcome to New Year', current_timestamp());
