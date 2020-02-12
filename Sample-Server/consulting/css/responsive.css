@@ -1,0 +1,133 @@
+@media screen and (max-width: 767px) {
+    .header input[type=text] {
+    width: 80%;
+    margin-left: 5px;
+}
+    .banner-info {
+    margin-left: 10px;
+    top: -243px;
+}
+    .banner-info h1 {
+    font-size: 28px;
+}
+    .btn-default {
+    width: 55%;
+    margin: 25px 1% 0 -6%;
+}
+    .btn-primary {
+    margin: 26px 0 0 2px;
+    width: 47%;
+}
+    .fa.fa-address-book-o {
+    margin: 13px 10px 10px 44%;
+}
+    .service-info1 a {
+    display: block;
+    text-align: center;
+}
+    .service-info1 p {
+    text-align: center;
+    }
+    .btn-info {
+    margin-left: 64px;
+    }
+    .fa.fa-lightbulb-o {
+    margin: 13px 10px 10px 43%;
+}
+    .service-info2 a {
+    display: block;
+    text-align: center;
+    }
+    .service-info2 p{
+        text-align: center;
+    }
+    .btn-link {
+    margin-left: 53px;
+    }
+    .service-info3 a {
+    display: block;
+    text-align: center;
+    }
+    .service-info3 p{
+        text-align: center;
+    }
+    .service-info4 a {
+    display: block;
+    text-align: center;
+    }
+    .service-info4 p{
+        text-align: center;
+    }
+    .team-info h3 {
+    font-size: 21px;
+}
+    .team-info p {
+    font-size: 14px;
+}
+    .btn-warning {
+    width: 37%;
+    margin: 51px 10px 10px 31%;
+}
+    .clients h3 {
+    margin: 8% 0 0;
+    font-size: 26px;
+}
+    .info1 img{
+        margin-left: 60px;
+    }
+    .img1 {
+    margin-top: 11%;
+}
+    .img2 {
+    margin-top: 18%;
+}
+    .img3 {
+    width: 105%;
+    margin-top: 9%;
+    margin-left: -11px !important;
+}
+     .info2 img{
+        margin-left: 60px;
+    }
+    .clients {
+    height: 1210px;
+}
+    .connect-info h3 {
+    padding-top: 75px;
+    }
+    .footer-info ul li {
+    margin: 46px 11px 10px 6px;
+}
+    .footer-info p {
+    text-align: center;
+    }
+    .footer-info h4 {
+    padding: 42px 10px 10px 7%;
+    text-align: center;
+    margin-top: 10px;
+}
+    .button{
+        margin: auto;
+        display: block;
+        width:50px;
+        height:50px;
+    }
+    .nav ul li a {
+    color: #333;
+}
+    .nav ul {
+        background-color: #fff !important;
+    text-align: center;
+    float: left;
+    width: 100%;
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+    .nav ul li {
+    width: 100%;
+    font-weight: bold;
+    margin: 18px 10px 10px 10px;
+    list-style-type: none;
+}
+}
