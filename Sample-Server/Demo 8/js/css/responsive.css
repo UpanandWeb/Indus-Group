@@ -1,0 +1,237 @@
+}/* responsive styles for laptop */
+@media (max-width:1199px){
+	.container{
+		width: 950px;
+	}
+
+
+
+
+
+}
+/* responsive styles for tablet/ipad */
+@media (max-width:979px){
+	.container{
+		width: 750px;
+	}
+	.logo img{
+		width: 80%;
+    height: 59px;
+}
+.nav ul li{
+	font-size: 14px !important;
+    margin: 0px 0px 0px 4px !important;
+}
+.dropbtn1{
+	padding:0px 0px !important;
+}
+.human h3{
+	font-size: 21px !important;
+}
+.uk-info p{
+	font-size: 21px !important;
+}
+.uk-info h4{
+	font-size:17px !important;
+}
+.impact h5{
+	font-size:23px !important;
+}
+.do-section{
+	height: 599px !important;
+}
+.service-info1 h3{
+	font-size: 17px !important;
+}
+.service-info1 p{
+	font-size:12px !important;
+}
+.service-info2 p{
+	    width: 95% !important;
+    font-size: 15px !important;
+}
+.service-info2 span{
+	    width: 95% !important;
+    font-size: 15px !important;
+}
+.service-info3 h3{
+	width: 80% !important;
+}
+
+.service-info3 p{
+	    width: 95% !important;
+    font-size: 15px !important;
+}
+.service-info3 span{
+	    width: 95% !important;
+    font-size: 15px !important;
+}
+.service-info4 h3{
+	width: 80% !important;
+}
+
+.service-info4 p{
+	    width: 95% !important;
+    font-size: 15px !important;
+}
+.service-info4 span{
+	    width: 95% !important;
+    font-size: 15px !important;
+}
+}
+/* responsive styles for mobile */
+@media (max-width:767px){
+	.container{
+		width: 90% !important;
+	}
+.logo {
+	width:50% !important;
+	float:left;
+}
+.logo img{
+	    width: 100% !important;
+    height: 49px !important;
+}
+#flip{
+	margin-top: 15px !important;
+	float:right !important;
+	display:block !important;
+}
+
+.nav ul li a{
+	color:#fff;
+}
+#panel li{
+	text-align:center;
+	float:none;
+}
+.nav{
+	float:none;
+}
+.content-info ul li{
+	margin-left: -11px !important;
+	float:none !important;
+	width:100% !important;
+}
+.div-in{
+	margin-left: -23px !important;
+}
+.div-in ul li{
+	float:none !important;
+	width:113% !important;
+}
+.do-section{
+	height:1504px !important;
+}
+.services{
+	width:82% !important;
+}
+.service-info1 ul li{
+	float:none !important;
+	width:100% !important;
+}
+.service-info1 h3{
+	font-size: 18px !important;
+	width:100% !important;
+}
+.service-info1 p{
+	font-size: 14px !important;
+	width:100% !important;
+}
+.service-info1 a{
+	margin: 67px 10px 10px 57px !important;
+}
+.service-info2 ul li{
+	float:none !important;
+	width:100% !important;
+}
+.service-info2 h3{
+	width: 100% !important;
+    font-size: 20px !important;
+    text-align: center !important;
+}
+.service-info2 p{
+	font-size: 15px !important;
+    width: 100% !important;
+}
+.service-info2 span{
+	width: 100% !important;
+    font-size: 15px !important;
+    padding-bottom: 13px !important;
+}
+.service-info2 img{
+	width:100% !important;
+}
+.service-info3 ul li{
+	float:none !important;
+	width:100% !important;
+}
+.service-info3 h3{
+	width: 100% !important;
+    font-size: 20px !important;
+    text-align: center !important;
+}
+.service-info3 p{
+	font-size: 15px !important;
+    width: 100% !important;
+}
+.service-info3 span{
+	width: 100% !important;
+    font-size: 15px !important;
+    padding-bottom: 13px !important;
+}
+.service-info3 img{
+	width:100% !important;
+}
+.service-info4 ul li{
+	float:none !important;
+	width:100% !important;
+}
+.service-info4 h3{
+	width: 100% !important;
+    font-size: 20px !important;
+    text-align: center !important;
+}
+.service-info4 p{
+	font-size: 15px !important;
+    width: 100% !important;
+}
+.service-info4 span{
+	width: 100% !important;
+    font-size: 15px !important;
+    padding-bottom: 13px !important;
+}
+.service-info4 img{
+	width:100% !important;
+}
+
+#email {
+   width: 67% !important;
+    margin: 37px 0px 10px 3% !important;
+}
+#sign {
+    width: 30% !important;
+    float: right !important;
+    margin: 37px 0% 10px 0% !important;
+}
+.footer-info{
+	width:100% !important;
+	float:none !important;
+}
+.footer-info p{
+	text-align:center !important;
+	font-size:11px !important;
+}
+.footer-nav{
+	float:none !important;
+	width:100% !important;
+}
+.footer-nav ul li{
+	    margin-left: 73px !important;
+    float: none !important;
+    display: block !important;
+
+
+    font-size: 11px !important;
+}zz
+}

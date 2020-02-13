@@ -1,0 +1,481 @@
+﻿@charset "utf-8";
+@import url("responsive.css");
+/* ==========================================================================
+   CSS Reset
+   ========================================================================== */
+/*
+* html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/)
+* Richard Clark (http://richclarkdesign.com)
+* http://cssreset.com
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+*,*:after,*:before {box-sizing: border-box;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;-ms-box-sizing: border-box;-o-box-sizing: border-box;}
+
+/* ==========================================================================
+   Common CSS
+   ========================================================================== */
+body {font: normal 14px/20px Arial, Helvetica, sans-serif;color: #4b4b4b;background: #fff;}
+h1, h2, h3, h4, h5, h6 {font-weight: normal;}
+a {outline: none;text-decoration: none;color: #b41124; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out;}
+a:hover,a:focus{text-decoration: none; transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out;}
+.container {width: 100%;margin: 0 auto;}
+#wrapper {min-height: 100%;position: relative;}
+li{list-style: none;}
+img{ display: block; max-width: 100%; height: auto; }
+
+.header{
+   width:100%;
+   float:left;
+   height: 73px;
+}
+.logo{
+   float: left;
+   width: 50%;
+}
+.nav{
+    font: normal 14px/20px Arial, Helvetica, sans-serif;
+   float: right;
+   width: 50%;
+}
+.nav ul{
+    float: left;
+    width: 100%;
+}
+.nav ul li{
+    list-style-type: none;
+    float: left;
+    margin: 10px 20px 10px 20px;
+}
+.nav ul li a{
+    color: #000;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color: #fff;
+background-color:#003768;
+padding: 20px 10px 20px 10px;
+text-align: center;
+}
+.dropbtn {
+    font: normal 14px/20px Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    color:#000;
+    padding: 11px;
+    font-size: 14px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    color: #fff;
+    background-color:#003768;
+    padding: 20px 10px 20px 10px;
+}
+.dropbtn1 {
+    background-color: transparent;
+    color:#000;
+    padding: 11px;
+    font-size: 14px;
+    border: none;
+}
+
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content1 a:hover {background-color: #ddd;}
+
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+}
+
+.dropdown1:hover .dropbtn1 {
+    color: #fff;
+    background-color:#003768;
+    padding: 20px 10px 20px 10px;
+}
+</* end header*/>
+
+</* start banner*/>
+    .mySlides {
+        display:none;
+    }
+.banner{
+    float: left;
+    width: 100%;
+}
+.mySlides{
+    background-image: url('images/business_consulting_banner (1).jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 300px;
+    color: #fff;
+    text-align: center;
+}
+.mySlides{
+   background-image: url('images/it-consulting-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 300px;
+    color: #fff;
+    text-align: center; 
+}
+</*end banner*/>
+.clear{
+    clear: both;
+}
+.content-info{
+    float: left;
+    width:100%;
+}
+.content-info ul{
+    float: left;
+    width: 100%;
+}
+.content-info ul li{
+    float: left;
+    width: 33%;
+    margin-right: -34px;
+    list-style-type: none;
+}
+.human{
+    background-image: url('images/1434588160758.jpg');
+    background-repeat: no-repeat;
+    background-size: 90% 100%;
+    height: 300px;
+}
+.human:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.human h3{
+    color: #fff;
+    width: 50%;
+    font-size: 28px;
+    padding: 30px 15px;
+    margin-top:17px;
+}
+.uk-info p{
+    background-image: url('images/1434608349573.jpg');
+    background-repeat: no-repeat;
+    background-size: 90% 100%;
+    color: #fff;
+    padding: 23px 10px 74px 17px;
+    font-size: 25px;
+}
+.uk-info p:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.uk-info p span{
+    display: block;
+}
+.uk-info h4{
+    background-image: url('images/1434594519325.png');
+    background-repeat: no-repeat;
+    background-size: 90% 100%;
+    color: #ccc;
+    margin-top: -18px;
+    font-size: 20px;
+    padding: 22px 10px 66px 14px;
+}
+.uk-info h4:hover{
+    opacity:0.5;
+    cursor: pointer;
+}
+.uk-info h4 span{
+    display: block;
+    color:#FF9800;
+}
+.impact{
+    background-image: url('images/1434611457495.jpg');
+    background-repeat: no-repeat;
+    background-size: 90% 100%;
+    height:292px;
+}
+.impact:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.impact h5{
+font-size: 26px;
+    width: 55%;
+    color: white;
+    margin-top: 26px;
+    padding: 13px 17px;
+}
+.do-section{
+    background-color: #ccc;
+    height: 510px;
+    width:100%;
+    float: left;
+}
+.do-section h3{
+    text-align: center;
+}
+.do-in{
+    float: left;
+    width: 100%;
+}
+.div-in ul{
+    float: left;
+}
+.div-in ul li{
+    float: left;
+    display: inline-block;
+    width: 32%;
+    border: 3px solid #ccc;
+}
+.do-in1{
+    height: 200px;
+    background-color: #fff;
+}
+.do-in1 img{
+    width: 100%;
+}
+.advisory{
+    text-align: justify;
+    width: 90%;
+    margin: 0 17px;
+}
+.advisory a{
+    padding-bottom: 11px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: red;
+}
+.assurence img{
+    width: 100%;
+}
+.do-in2{
+    text-align: justify;
+    width: 90%;
+    margin: 0 17px;
+}
+.do-in2 a{
+    padding-bottom: 11px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: red;
+}
+.do-in3 img{
+    width: 100%;
+}
+.do1{
+    display: block;
+    background-color: #FFF;
+}
+.do2{
+    display: block;
+    background-color: #FFF;
+}
+.do3{
+    display: block;
+    background-color: #FFF;
+}
+.consulting{
+    text-align: justify;
+    width: 90%;
+    margin: 0 17px;
+}
+.consulting a{
+    padding-bottom: 11px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: red;
+}
+.services{
+    width: 100%;
+    float: left;
+}
+.service-info1 ul{
+    float: left;
+    width: 100%;
+}
+.service-info1 ul li{
+    float: left;
+    width: 50%;
+    list-style-type: none;
+}
+.service-info1 h3{
+    display:block;
+    width: 30%;
+    font-size: 25px;
+}
+.service-info1 p{
+    width: 70%;
+    text-align: justify;
+}
+.service-info1 a{
+    line-height: 40px;
+    background-color: #22ddf5;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    margin: 35px 10px 10px 19px;
+}
+.service-info2 ul{
+    float: left;
+    width: 100%;
+}
+.service-info2 ul li{
+    float: left;
+    width: 50%;
+    list-style-type: none;
+}
+.service-info2 h3{
+    display:block;
+    width: 25%;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.service-info2 p{
+    width: 50%;
+    font-size: 20px;
+    text-align: justify;
+}
+.service-info2 span{
+    width: 50%;
+    color: #22ddf5;
+    font-size: 20px;
+    display: block;
+}
+.analy{
+    margin-top: 30px;
+}
+.service-info3 ul{
+    float: left;
+    width: 100%;
+}
+.service-info3 ul li{
+    float: left;
+    width: 50%;
+    list-style-type: none;
+    margin-top: 51px;
+}
+.service-info3 h3{
+    display:block;
+    width: 25%;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.service-info3 p{
+    width: 50%;
+    font-size: 20px;
+    text-align: justify;
+}
+.service-info3 span{
+    width: 50%;
+    color: #22ddf5;
+    font-size: 20px;
+    display: block;
+}
+.service-info3 img{
+    margin-left: -45px;
+}
+.service-info4 ul{
+    float: left;
+    width: 100%;
+}
+.service-info4 ul li{
+    float: left;
+    width: 50%;
+    list-style-type: none;
+    margin-top: 51px;
+}
+.service-info4 h3{
+    display:block;
+    width: 25%;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.service-info4 p{
+    width: 50%;
+    font-size: 20px;
+    text-align: justify;
+}
+.service-info4 span{
+    width: 50%;
+    color: #22ddf5;
+    font-size: 20px;
+    display: block;
+}
+.input-section{
+    float: left;
+    width: 100%;
+    background-image: url('images/bg-news-sign-up.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 200px;
+}
+.input-info h3{
+    text-align: center;
+    color: #fff;
+}
+#email{
+    width: 28%;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    border-radius: 1px;
+    margin: 35px 10px 10px 31%;
+    border: 1px solid #fff;
+}
+#sign{
+    color: #fff;
+    width: 10%;
+    float: right;
+    padding: 10px 10px 10px 10px;
+    border-radius: 1px;
+    margin: 35px 28% 10px -3%;
+    border: 1px solid red;
+    background: red;
+    text-align: center;
+    cursor: pointer;
+}
