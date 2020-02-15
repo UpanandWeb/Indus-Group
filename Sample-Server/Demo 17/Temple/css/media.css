@@ -1,0 +1,36 @@
+@media only screen and (max-width: 991px) {
+	.navbar-collapse .collapse.show .navbar-nav .ml-auto li{
+	text-align: center;
+}
+.navbar-light .navbar-toggler{
+	color: #000;
+    border-color: #000
+}
+.collapse.show:before{
+		content: "";
+		right: 0;
+		position: absolute;
+		border-bottom: 20px solid #000;
+		border-left: 20px solid transparent;
+		border-right: 20px solid transparent;
+}
+ul.navbar-nav.ml-auto {
+  	border-radius: 4px;
+  	margin:  auto;
+  	width:  100%;
+  	position: absolute;
+  	top: 122%;
+  	}
+
+  	.navbar-collapse .collapse.show .navbar-nav .ml-auto li .nav-item{
+  		background-color: #fff;
+  		color: #fcc800;
+  		text-align: center;
+  	}
+    
+}
+@media only screen and (max-width:500px) {
+	 .carousel-caption p{
+  		display:none;
+  	}
+} 
