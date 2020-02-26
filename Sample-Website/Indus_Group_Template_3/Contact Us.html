@@ -1,0 +1,163 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+
+ <!-----SLIDE----->
+<link rel="stylesheet" type="text/css" href="slider/slide.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script type="text/javascript" src="slider/fade-plugin.js"></script>
+    <script type="text/javascript">
+      (function($) {
+        function init() {
+
+          $("#example1 .effectContainer").fadeTransition({pauseTime: 4000,
+                                                 transitionTime: 1000,
+                                                 ignore: "#introslide",
+                                                 delayStart: 4000,
+                                                 pauseOnMouseOver: true,
+                                                 createNavButtons: true});
+                                                 
+          $("#example2 .effectContainer").fadeTransition({pauseTime: 2000,
+                                                  transitionTime: 2000,
+                                                  delayStart: 2000,
+                                                  pauseOnMouseOver: true,
+                                                  createNavButtons: true});
+                                                 
+          $("#example3 .effectContainer").fadeTransition({pauseTime: 0,
+                                                  transitionTime: 500,
+                                                  manualNavigation: true});
+                                                  
+          var example3 = $("#example3 .effectContainer").fadeTransition().fader();          
+          $("#back").click(function(e) { example3.prev(); e.preventDefault(); });
+          $("#next").click(function(e) { example3.next(); e.preventDefault(); });
+        }
+        
+        
+        $(document).ready(init);
+      })(jQuery);
+    </script>
+ <!-----SLIDE----->
+</head>
+
+<body>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td bgcolor="#a0440a"><img src="images/spacer1.png" width="10" height="10" /></td>
+  </tr>
+  <tr>
+    <td style="background-image:url(images/content_bg.png); background-repeat:repeat-y; background-position:center;"><table width="80%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><table width="87%" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="250" height="100"><img src="images/logo.png" width="250" height="96" /></td>
+            <td align="left" valign="top"><table width="100%" border="0" align="right" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="75">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="20" align="right" valign="middle" class="nav_txt"><a href="index.html" class="nav">HOME </a> <a href="aboutus.html" class="nav">ABOUT US</a> <a href="portfolio.html" class="nav">PORTFOLIO</a> <a href="construction_interior.html" class="nav"> CONSTRUCTION &amp; INTERIOR </a><a href="gallery.html" class="nav">GALLERY</a> <a href="Contact Us.html" class="nav">CONTACT US</a></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td align="center" valign="middle"></td>
+      </tr>
+      <tr>
+        <td><table width="87%" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td bgcolor="#ff6201"><img src="images/spacer.png" width="5" height="5" /></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td align="left" valign="top"><div id="content">
+        	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="60%" align="left" valign="top"><table width="600" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td align="left" valign="bottom"><img src="images/Contact Us.png" width="234" height="37" /></td>
+                </tr>
+              <tr>
+                <td align="left" valign="top"><table width="595" border="0" align="right" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td align="center" valign="middle"><img src="images/cont_field.jpg" width="510" height="355" /></td>
+                  </tr>
+                  </table>
+                  <p>&nbsp;</p></td>
+                </tr>
+              <tr>
+                <td><img src="images/spacer.png" width="5" height="5" /></td>
+                </tr>
+              </table></td>
+            <td width="40%" align="left" valign="top"><table width="329" border="0" align="left" cellpadding="0" cellspacing="0">
+              <tr>
+                <td align="left" valign="top"><table width="300" border="0" align="left" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="37" align="left" valign="middle">&nbsp;</td>
+                    </tr>
+                  <tr>
+                    <td align="left" valign="top"><table width="280" border="0" align="center" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td width="15" align="left" valign="middle"><img src="images/arrow.png" width="7" height="7" /></td>
+                        <td height="25" align="left" valign="middle"><img src="images/logo.png" width="250" height="96" /></td>
+                        </tr>
+                      </table></td>
+                  </tr>
+                  </table></td>
+                </tr>
+              </table></td>
+          </tr>
+          </table>
+        </div></td>
+      </tr>
+      <tr>
+        <td align="left" valign="top"><table width="86%" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td bgcolor="#dedede"><img src="images/spacer1.png" width="10" height="10" /></td>
+          </tr>
+          <tr>
+            <td bgcolor="#dedede"><table width="86%" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td width="198" align="left" valign="top"><img src="images/img1.png" width="192" height="148" /></td>
+                <td width="198" align="left" valign="top"><img src="images/img2.png" width="192" height="148" /></td>
+                <td width="198" align="left" valign="top"><img src="images/img3.png" width="191" height="148" /></td>
+                <td width="198" align="left" valign="top"><img src="images/img4.png" width="192" height="148" /></td>
+                <td width="198" align="left" valign="top"><img src="images/img5.png" width="192" height="148" /></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td bgcolor="#dedede"><img src="images/spacer1.png" width="10" height="10" /></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td align="left" valign="top">&nbsp;</td>
+      </tr>
+      <tr>
+        <td><table width="86%" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="427" height="25"><a href="gallery.html" class="nav">GALLERY</a> | <a href="Contact Us.html"><span class="nav">CONTACT US</span></a> | <a href="#" class="nav">Terms Of Use</a> | <a href="#" class="nav">Privacy Statement</a></td>
+            <td width="427" height="25" align="right">© 2013 Indus Infra . All rights reserved.</td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ margin:0px; padding:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; background-image:url(images/decorat.jpg);}
+
+.cont{ font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#7b7a7a; text-align:justify; line-height:18px;}
+
+
+.nav{ font-family: Leelawadee,Arial, Helvetica, sans-serif; font-size:13px; color:#7e7a78; text-decoration:none; outline:none; line-height:18px;  letter-spacing:1px; padding:5px 5px;}
+.nav:hover, nav #active a{ font-family: Leelawadee,Arial, Helvetica, sans-serif; font-size:13px; color:#ff6201; text-decoration:none; outline:none; line-height:18px; color:#ff6200; padding-bottom:5px; border-top:3px solid #ff6201;  letter-spacing:1px; padding:5px 5px;}
+
+#content{ margin-left:50px;}
+
+.footer_txt{ font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#7b7a7a;  line-height:18px;}
+
+.fotr:{ font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#7b7a7a; line-height:18px; text-decoration:none; outline:none;}
+.fotr:hover{ font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#ff6201;  line-height:18px; text-decoration:none; outline:none;}

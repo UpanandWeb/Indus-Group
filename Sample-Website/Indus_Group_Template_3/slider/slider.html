@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style>
+body{ margin:0px; padding:0px;}
+
+</style>
+
+
+
+ <!-----SLIDE----->
+<link rel="stylesheet" type="text/css" href="slide.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+    <script type="text/javascript" src="fade-plugin.js"></script>
+    <script type="text/javascript">
+      (function($) {
+        function init() {
+
+          $("#example1 .effectContainer").fadeTransition({pauseTime: 4000,
+                                                 transitionTime: 1000,
+                                                 ignore: "#introslide",
+                                                 delayStart: 4000,
+                                                 pauseOnMouseOver: true,
+                                                 createNavButtons: true});
+                                                 
+          $("#example2 .effectContainer").fadeTransition({pauseTime: 2000,
+                                                  transitionTime: 2000,
+                                                  delayStart: 2000,
+                                                  pauseOnMouseOver: true,
+                                                  createNavButtons: true});
+                                                 
+          $("#example3 .effectContainer").fadeTransition({pauseTime: 0,
+                                                  transitionTime: 500,
+                                                  manualNavigation: true});
+                                                  
+          var example3 = $("#example3 .effectContainer").fadeTransition().fader();          
+          $("#back").click(function(e) { example3.prev(); e.preventDefault(); });
+          $("#next").click(function(e) { example3.next(); e.preventDefault(); });
+        }
+        
+        
+        $(document).ready(init);
+      })(jQuery);
+    </script>
+ <!-----SLIDE----->
+   
+
+</head>
+
+<body>
+<table width="907" height="373" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><div id="example1">
+      <div class="effectContainer">
+  
+        <div class="slide r1">
+          <img src="images/slide_1.jpg" height="430" width="995" alt="" />
+        </div>
+        <div class="slide r2">
+            <img src="images/slide_2.jpg" alt="" />
+        </div>
+        <div class="slide r3">
+          <img src="images/slide_3.jpg" alt="" />
+        </div>
+        <div class="slide r4">
+           <img src="images/slide_4.jpg" alt="" />
+        </div>
+        <div class="slide r5">
+          <img src="images/slide_5.jpg" alt="" />
+        </div>
+        <div class="slide r6">
+          <img src="images/slide_6.jpg" alt="" />
+        </div>
+		 <!-- <div class="slide r7">
+          <img src="images/slide_7.jpg" alt="" />
+        </div>
+     <div class="slide r8">
+          <img src="images/slide_8.jpg" alt="" />
+        </div>-->
+      </div>
+    </div>        
+</table>
+</body>
+</html>
