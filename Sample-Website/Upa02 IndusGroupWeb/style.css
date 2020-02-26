@@ -1,0 +1,128 @@
+body{
+padding:0px;
+margin:0px;
+}
+.carousel-inner img {
+	width: 100%;
+	height: 550px;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+	color: rgba(20, 121, 206, 0.99);
+	border-bottom: 2px solid red !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: rgba(37, 136, 172, 0.84);
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.bg-dark {
+	background-color: #fff !important;
+	height: 95px;
+}
+.navbar-dark img {
+	height: 80px;
+	width: auto;
+}
+.head-section {
+	text-align: center;
+	padding-top: 48px;
+}
+.head-section h1 {
+	font-size: 26px;
+	color: #093b6fe0;
+}
+.head-section p {
+	color: #8a8787;
+}
+.service-bg {
+	background-color: #06386a;
+	height: 400px;
+	text-align: center;
+	color: #fff;
+}
+.services h1 {
+	padding: 25px 0px;
+}
+.service-bg h1 {
+	color:#fff;
+}
+.service-icons img {
+	background-color: #0a529b;
+	padding: 20px;
+	border-radius: 60px;
+	height: 110px;
+}
+.add-sec {
+	background-color: #9b2222;
+	height: 100px;
+	color: #fff;
+	margin: 5px 0px;
+}
+.add-sec h3 {
+	font-size: 23px;
+	padding: 33px 0px;
+	text-align: center !important;
+	margin: 0px auto;
+}
+.clients-section {
+	padding: 0px;
+	display: inline-flex;
+	margin-top: 0px !important;
+}
+.clients-section li img {
+	width: inherit;
+}
+
+.form-contact {
+	background-color: #16252d;
+	color: #fff;
+	
+}
+.col-md-6.contact-info.text-left h3 {
+	border-bottom: 1px solid #00fffb;
+	padding: 10px;
+}
+.form input{
+	width:100%;
+}
+textarea {
+	overflow: auto;
+	resize: vertical;
+	width: 100%;
+	height: 150px;
+	border-radius: 15px;
+}
+#btnsubmit {
+	border: none;
+	background: none;
+	font-size: 20px;
+	color: #fff;
+	text-align: right;
+}
+.info-detail ul {
+	list-style: none;
+}
+.col-md-6.contact-form h3 {
+	border-bottom: 1px solid #00fffb;
+	padding: 10px;
+}
+.footer_links {
+	list-style: none;
+	display: inline-flex;
+	/* padding: 0px 5px; */
+	float: right;
+}
+.footer {
+	padding: 10px 0px;
+}
+.footer_links li a {
+	color: #464141;
+	padding: 0px 10px;
+	
+	border-right: 1px solid red;
+}
+.clients-section h3 {
+	transform: translateY(-150px);
+	text-align: center;
+	color: #fff;
+}
