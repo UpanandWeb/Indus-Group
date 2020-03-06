@@ -1,0 +1,428 @@
+body {
+	background: url(images/bg-6-full.jpg);
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+#main {
+	width: 96%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.mainmenu
+    {
+	 width: 100%;
+	 margin:0 auto;
+	
+	}
+
+.header 
+{
+	width: 100%;
+	height: 150px;
+	background: #fff6f5;
+}
+.logo {
+	float: left;
+}
+.logo figure {
+	width: 120px;
+	height: 52px;
+	padding: 20px;
+}
+.menu {
+	width: 96%;
+	height: 40px;
+	margin: 20px 0 0 0;
+	background:#106A71;
+	float: left;
+	
+}
+.menu ul {
+	margin: 0px;
+	padding: 0px;
+}
+.menu ul li {
+	float: left;
+	list-style: none;
+	
+}
+.menu ul li a {
+	color: #fff;
+	text-decoration: none;
+	font: 18px/40px roboto condensed;
+	display: block;
+	padding: 0px 20px;
+
+}
+
+.menu ul li:nth-child(9) { padding-left:6px;}
+
+.menu ul li a:hover {
+	background: #fff;
+	color: #066795;
+}
+.container {
+	width: 100%;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	margin: 10px 0 0 0;
+	background: rgba(255,255,255,0.5);
+	padding: 0px 0px 100px 0px;
+}
+
+.form 
+{
+	width: 431px;
+	margin: 0 auto;
+	height: 283px;
+	background-image: url('http://www.saluteandhra.com/saluteandhra/admin/images/login-bg1.jpg');
+	background-repeat:no-repeat;
+	
+}
+
+p{ float:left; width:150px; margin: 55px 0px 0px 40px;}
+
+.form input[ type="text"] {
+	margin: 5px 0px 0px 10px;
+	width: 160px;
+	padding: 6px;
+	border: 1px solid #ccc;
+	float:left;
+}
+.form input[ type="password"] {
+	/*margin: 64px 0 -49px 168px;
+	width: 160px;
+	padding: 6px;
+	border: 1px solid #ccc;*/
+}
+input[type="submit"] {
+	margin: 0 0 0 0px;
+	padding: 3px;
+}
+
+
+/*add news styles starts here*/
+.container_add {
+	width: 100%;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	margin: 10px 0 0 0;
+	background: #fff6f5;
+	float: left;
+}
+.left {
+	width: 200px;
+	height: auto;
+	float: left;
+}
+.left ul {
+	margin: 0px;
+	padding: 0px;
+}
+.left ul li {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	width: 200px;
+	list-style: none;
+}
+.left ul li  {
+	color: #333;
+	text-decoration: none;
+	font: 16px/40px roboto condensed;
+	display: block;
+	padding: 0px 25px;
+}
+
+.left ul li:nth-child(3) {
+	padding:0;
+	line-height: 150px !important;
+	text-align: center;
+}
+
+.right {
+	width: 798px;
+	margin: 0 auto;
+	height: auto;
+	border-left: 1px solid #ccc;
+	float: left;
+}
+.right ul {
+	margin: 0px;
+	padding: 0px;
+}
+.right ul li {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	width: 760px;
+	list-style: none;
+	height: 40px;
+	padding: 0 20px;
+}
+.right ul li a {
+	color: #333;
+	text-decoration: none;
+	font: 16px/40px roboto condensed;
+	display: block;
+}
+.right ul li:nth-child(3) {
+	height: 150px;
+}
+.right ul li:nth-child(5) {
+	border-bottom:none !important;
+}
+.right button {
+	padding: 2px;
+	margin: 5px 0 0 0;
+}
+h3 {
+	line-height: 40px;
+/*	background: #78A145;
+*/	color: #066795;
+	text-align: center;
+	font: 16px/40px Tahoma, Geneva, sans-serif;
+	border-radius: 10px 10px 0 0;
+}
+.right ul input {
+    border: medium none;
+    background: #fff;
+    padding: 9px;
+border-top:1px solid #ddd;
+	width:780px;
+	height:23px;
+}
+.mn {
+	line-height: 150px ;
+}
+select {
+	margin: 7px 0 0 0;
+	padding: 5px;
+}
+option {
+	margin: 15px 0 0 0;
+}
+.logout {
+	float: right;
+	width: 100px;
+	margin: 35px 45px 0 0;
+}
+.logout a {
+	text-decoration: none;
+}
+.logout a img {
+	float: left;
+	margin: 0;
+	border: none;
+}
+.logout a h4 {
+	margin: 2px 0 0 30px;
+}
+/*.input[type="text"] {
+	border-style: none;
+	border-color: inherit;
+	border-width: medium;
+	padding-left: 10px;
+	}*/
+
+fieldset {
+	border: none;
+}
+textarea {
+	height: 150px;
+	width: 798px;
+}
+/*add news styles ends here*/
+
+
+/*view reviews styles starts here*/
+
+
+.container_view {
+	width: 1000px;
+	margin: 20px auto;
+	border: 1px solid #F1670C;
+	border-radius: 10px;
+	background: #fff;
+	float: left;
+}
+.news {
+	width: 280px;
+	height: auto;
+	float: left;
+}
+.news ul {
+	margin: 0px;
+	padding: 0px;
+}
+.news ul li {
+	border-top: 1px solid #F1670C;
+	width: 280px;
+	list-style: none;
+}
+.news ul li a {
+	color: #333;
+	text-decoration: none;
+	font: 16px/40px roboto condensed;
+	display: block;
+	padding: 0px 25px;
+}
+
+.side {
+	width: 235px;
+	margin: 0 auto;
+	height: auto;
+	border-left: 1px solid #F1670C;
+	float: left;
+}
+.side ul {
+	margin: 0px;
+	padding: 0px;
+}
+.side ul li {
+	border-top: 1px solid #F1670C;
+	/*	border-bottom:1px solid #d80000;
+*/	width: 234px;
+	list-style: none;
+	height: 40px;
+}
+.side ul li a {
+	color: #333;
+	text-decoration: none;
+	font: 16px/40px roboto condensed;
+	display: block;
+	padding: 0 0 0 20px;
+}
+.side1 {
+	width: 100px;
+	margin: 0 auto;
+	height: auto;
+	border-left: 1px solid #F1670C;
+	float: left;
+}
+.side1 ul {
+	margin: 0px;
+	padding: 0px;
+}
+.side1 ul li {
+	border-top: 1px solid #F1670C;
+	width: 100px;
+	list-style: none;
+	height: 40px;
+}
+.side1 ul li a {
+	color: #333;
+	text-decoration: none;
+	font: 16px/40px roboto condensed;
+	display: block;
+	padding: 0 0 0 20px;
+}
+.side2 {
+	width: 146px;
+	margin: 0 auto;
+	height: auto;
+	border-left: 1px solid #F1670C;
+	float: right;
+}
+.side2 ul {
+	margin: 0px;
+	padding: 0px;
+}
+.side2 ul li {
+	border-top: 1px solid #F1670C;
+	width: 146px;
+	list-style: none;
+	height: 40px;
+}
+.side2 ul li a {
+	color: #333;
+	text-decoration: none;
+	font: 16px/40px roboto condensed;
+	display: block;
+	padding: 0px 0px 0px 25px;
+}
+
+.side2 ul li a img{ margin:10px 0px 0px 5px;}
+h3 {
+	line-height: 40px;
+	color: #dd1616;
+	text-align: center;
+	font: 18px/40px Tahoma, Geneva, sans-serif;
+	border-radius: 10px 10px 0 0;
+	height:30px;
+	margin-top:25px;
+}
+.mn {
+	background: #e6eeee;
+	font-size:40px;
+	
+}
+.mn1 {
+	background: #d52027; color:#fff;
+}
+ .button
+ {
+ 	text-align:center;
+ 	padding-right:7px;
+ }
+ .styletype
+ {
+ 	list-style-type:none;
+ }
+ .style1
+ {
+   margin-top:-9px;
+ }
+ .style2
+ {
+ 	margin-top:-9px;
+ 	padding-right:5px;
+ 	text-align:right;
+ }
+ .style3
+ {
+ 	padding-right:5px;
+ 	text-align:right;
+ }
+ .style4
+ {
+ 	float:left;
+ 	s
+ }
+ .style5
+ {
+ 	width:230px;
+ 	float:left;
+ 	text-align:left;
+ }
+ .style6
+ {
+ 	margin:10px 0px 0px 10px;
+ }
+ .mousehover:hover
+ {
+ 	background-color:#C1D5F5;
+ 	color:black;
+
+ }
+ .adminlogo
+ {
+ 	width:1000px;
+ 	height:150px;
+ 	background-image:url(http://www.saluteandhra.com/saluteandhra/admin/images/banneradmin.png);
+ }
+ .text4
+ {
+ 	
+ font-family: Verdana;
+font-size: 13px;
+font-weight: bold;
+color: Black;
+ 	
+ }
+ 
+
+/*view reviews styles ends here*/
