@@ -1,0 +1,232 @@
+.maintab {
+	background-image: url(../images/shade_bg.jpg);
+	background-repeat:repeat-x;
+	height:631px;
+	vertical-align:top;
+}
+.inBg {
+	background-image: url(../images/iB2.jpg);
+	background-repeat:repeat-y;
+}
+.inBodyTable {
+	background-image: url(../images/iB1.jpg);
+	background-repeat:no-repeat;
+}
+.inBodyTable1 {
+	background-image: url(../images/iB1_1.jpg);
+	background-repeat:no-repeat;
+}
+#tnav {
+	position:absolute;
+	text-align:center;
+    margin:0px;
+    padding:0px;
+    width:820px;
+}
+.navTable TD {
+	text-align:center;
+	color:#d59a23;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
+.header {
+	color:#2e4b6d;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+}
+.header span {
+	font-size:9px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+}
+.data {
+	color: #003366;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-align:justify;
+}
+
+.navTable TD A:link {
+	color:#2d496d;
+	text-decoration:none;
+	font-size:11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.navTable TD A:active {
+	color:#2d496d;
+	text-decoration:none;
+	font-size:11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.navTable TD A:visited {
+	color:#2d496d;
+	text-decoration:none;
+	font-size:11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.navTable TD A:hover {
+	color:#ffc600;
+	text-decoration:underline;
+	font-size:11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.footer {
+	color:#145bab;
+	font-size:11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	
+	
+	
+}
+.foo  {
+	text-align:right;
+	color:#145bab;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
+.foo  A:link {
+	color:#145bab;
+	text-decoration:none;
+	font-weight:bold;
+}
+.foo  A:active {
+	color:#145bab;
+	text-decoration:none;
+	font-weight:bold;
+}
+.foo  A:visited {
+	color:#145bab;
+	text-decoration:none;
+	font-weight:bold;
+}
+.foo  A:hover {
+	color:#145bab;
+	text-decoration:underline;
+	font-weight:bold;
+}
+#hbody {
+	position:absolute;
+	width:830px;
+}
+.bdyL { 
+	width: 350px;
+	padding-left:40px;
+	padding-top:15px;
+	padding-right:25px;
+}
+.bdyL TD {
+	color:#634200;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
+.bdyR { 
+	padding-left:9px;
+	padding-top:10px;
+}
+.listi {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:3px 0px 0px 10px;
+	padding:0px;
+	
+}
+.text a:link {
+	color:#634200;
+	font-family:verdna,Helvetica,sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	line-height:15px;
+	text-decoration:underline;
+	}
+.text a:visited {
+	color:#634200;
+	font-family:verdana,Helvetica,sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	line-height:15px;
+	text-decoration:underline;
+}
+.text a:active {
+	color:#463420;
+	font-family:verdana,Helvetica,sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	line-height:15px;
+	text-decoration:underline;
+}
+.text a:hover {
+	color:#000000;
+	font-family:verdana,Helvetica,sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	line-height:15px;
+	text-decoration:none;
+}
+
+.data2 {
+	color: #4f462b;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+
+}
+.TextMainArial {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; TEXT-TRANSFORM: none; COLOR: #000000;  FONT-FAMILY: verdana, Arial, Helvetica, sans-serif; TEXT-DECORATION: none;
+}
+SPAN.star {
+	color:#BA0001;
+	font-weight:bold;
+	FONT-SIZE: 14px;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	padding-right:3px;	
+}
+.logoptions {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #4C74AD;	
+	padding-left:5px;	
+	
+}
+.logoptions A{
+	color: #4C74AD;
+}
+.logoptions A:hover{
+	color: #B60A08;
+}
+.marquee {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #c51400;
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.style1 {
+	color: #003366;
+	font-weight: bold;
+}
+
+.data3 {
+	color: #4f462b;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-align:left;	
+	color:#2977b8;	
+	
+}
+.scrolltxt {
+	color:#001a8b;
+	font-size:11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;	
+}
+.data1 {
+	color: #176ca9;
+	font-family:Trebuchet MS,Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;	
+	font-weight:bold;sss
+	
+}
