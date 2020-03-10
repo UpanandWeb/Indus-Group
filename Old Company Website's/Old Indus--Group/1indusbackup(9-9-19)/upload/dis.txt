@@ -1,0 +1,26 @@
+            Int16 Id = Convert.ToInt16(e.CommandArgument.ToString());
+            dset = obj.BindMailTemplates(Id);
+            if (!dset.Tables[0].Rows.Count.Equals(0))
+            {
+                TempName = dset.Tables[0].Rows[0]["temp_name"].ToString();
+                MailFrom = dset.Tables[0].Rows[0]["temp_email"].ToString();
+                MailSUb = dset.Tables[0].Rows[0]["temp_subj"].ToString();
+                MailMsg = dset.Tables[0].Rows[0]["temp_message"].ToString();
+            }
+            lblId.Text = Id.ToString();
+            txtname.Text = TempName;
+            txtfrom.Text = MailFrom;
+            txtsubj.Text = MailSUb;
+            txtmsg.Text = MailMsg;
+            ModalPopupExtender1.Show();
+
+
+
+
+public DataSet BindMailTemplates(int Mid)
+    {
+        string qry = "select * from rz_MailTemplate where mid=" + Mid;
+        DataSet ds = new DataSet();
+        ds = obj.ExcuteQry(qry);
+        return ds;
+    }

@@ -1,0 +1,25 @@
+appcode 
+dataAccess.cs page
+
+1)ExecuteSQL()
+Line no:138
+
+2)ExecuteSQLstr()
+Line no:149
+
+Includes folder==DALC
+dataAccess.cs page
+
+1)ExecuteSQLstr1()
+Line no:454
+
+Admin/Appcode 
+DataAccess page
+
+1)ExecuteSQL()
+Line no:141
+
+2)ExecuteSQLstr()
+Line no:151
+
+3)
