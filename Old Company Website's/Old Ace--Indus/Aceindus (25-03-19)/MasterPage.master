@@ -1,0 +1,95 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<%@ Register Src="UControls/Top1.ascx" TagPrefix="uc1" TagName="Top" %>
+<%@ Register Src="UControls/Bottom.ascx" TagPrefix="uc1" TagName="Bottom" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Best Web Design &amp; Development Company In India – Ace Indus Tech sol. PVT LTD. IT Services</title>
+
+    <link href="css/master.css" rel="stylesheet" />
+
+    <!-- SWITCHER -->
+    <%--<link rel="stylesheet" id="switcher-css" type="text/css" href="css/switcher.css" media="all" />--%>
+    <link rel="alternate stylesheet" type="text/css" href="css/color1.css" title="color1" media="all" data-default-color="true" />
+    <link rel="alternate stylesheet" type="text/css" href="css/color2.css" title="color2" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="css/color3.css" title="color3" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="css/color4.css" title="color4" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="css/color5.css" title="color5" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="css/color6.css" title="color6" media="all" />
+    <link rel="stylesheet" href="css/lightbox.css" />
+    <link href="css/theme.css" rel="stylesheet" />
+    <%--<style>
+        input[type=text] {
+            width: 150px;
+            border-radius: 4px;
+            padding: 4px 0px 0px 10px;
+            background-color: #ffffff;
+            /*background-image: url(searchicon.png);*/
+            background-position: 10px 5px;
+            background-repeat: no-repeat;
+            -webkit-transition: width 0.4s ease-in-out;
+            transition: width 0.4s ease-in-out;
+            height: 32px;
+        }
+    </style>--%>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+     <div class="mar">
+            <div class="sp-body">
+        <table width="100%" align="center">
+            <tr>
+                <td>
+                <uc1:Top runat="server" ID="Top" />
+                </td>
+            </tr>
+              <tr>
+                <td>
+                     <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                     </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+              <tr>
+                <td>
+                <uc1:Bottom runat="server" ID="Bottom" />
+
+                </td>
+            </tr>
+        </table>
+                      <script src="js/lightbox-plus-jquery.min.js"></script>
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/modernizr.custom.js"></script>
+        <script src="js/jquery.easypiechart.min.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/jquery.easypiechart1.min.js"></script>
+        <!-- Loader -->
+        <script src="js/classie1.js"></script>
+        <script src="js/pathLoader.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/classie.js"></script>
+        <!--Switcher-->
+        <script src="js/switcher.js"></script>
+        <!--Owl Carousel-->
+        <script src="js/owl.carousel.min.js"></script>
+        <!-- SCRIPTS -->
+        <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+        <!--Theme-->
+        <script src="js/jquery.smooth-scroll.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/jquery.placeholder.min.js"></script>
+        <script src="js/smoothscroll.min.js"></script>
+        <script src="js/theme.js"></script>
+    </div></div>
+    </form>
+</body>
+</html>
